@@ -13,12 +13,9 @@ DSC electronic badges are [cryptographically signed](https://badgecheck.io/){:ta
 
 DSC badges are awarded at the request of workshop participants after a DSC staff member has verified that they have successfully completed one or more of the workshop hands-on workshop activities. You can see a list of all the badges offered by the DSC on our [Badgr page](https://badgr.com/public/issuers/HI5nEIsFQKiFDSGJWrYNxQ/badges){:target="_blank"}.
 
-### UPDATEEEEEEEEEEEEarn an Informal Credential or Badge for the Internet of Things
+### Earn an Informal Credential or Badge for the Internet of Things
 
-If you’d like to earn a DSC badge for this workshop, please email the following spreadsheets to: [dscommons@uvic.ca](mailto:dscommons@uvic.ca){:target="_blank"}
-1. Statistical Functions
-2. Macros
-3.  Digital Dashboards
+If you’d like to earn a DSC badge for this workshop, please email images of 2 completed workshop projects to: [dscommons@uvic.ca](mailto:dscommons@uvic.ca){:target="_blank"}
 
 ### Learn how you can share your DSC Badge
 To learn more about DSC badges and how you can share your them on LinkedIn profile, personal website, or resume, check our [DSC Badges webpage](https://onlineacademiccommunity.uvic.ca/dsc/badges/){:target="_blank"}.

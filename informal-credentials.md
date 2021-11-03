@@ -7,13 +7,13 @@ UPDATE WITH WORKSHOP BADGE URL FROM BADGR.COM: <img src="https://api.badgr.io/pu
 
 # Informal Credentials or Digital Badges
 
-The Digital Scholarship Commons (DSC) awards digital badges, or informal credentialing, for the successful completion of this workshop. We award badges as an informal credential in order to help workshop participants, who wish to, make public the fact that they have developed qualitative coding skills using Taguette. 
+The Digital Scholarship Commons (DSC) awards digital badges, or informal credentialing, for the successful completion of this workshop. We award badges as an informal credential in order to help workshop participants, who wish to, make public the fact that they have developed Internet of Things development skills with the Adafruit Feather Huzzah. 
 
 DSC electronic badges are [cryptographically signed](https://badgecheck.io/){:target="_blank"} and have the recipients email address embedded in the signing so that it cannot be used by anyone else. Also embedded in the badge is a [link to the learning objectives for the workshop](https://badgr.com/backpack/badges/607767abb78d4c65fc8f1676){:target="_blank"} so that employers or anyone who sees the badge can determine what was done to earn the badge. 
 
 DSC badges are awarded at the request of workshop participants after a DSC staff member has verified that they have successfully completed one or more of the workshop hands-on workshop activities. You can see a list of all the badges offered by the DSC on our [Badgr page](https://badgr.com/public/issuers/HI5nEIsFQKiFDSGJWrYNxQ/badges){:target="_blank"}.
 
-### UPDATE: Earn an Informal Credential or Badge for Taguette
+### UPDATEEEEEEEEEEEEarn an Informal Credential or Badge for the Internet of Things
 
 If you’d like to earn a DSC badge for this workshop, please email the following spreadsheets to: [dscommons@uvic.ca](mailto:dscommons@uvic.ca){:target="_blank"}
 1. Statistical Functions

@@ -20,7 +20,6 @@ In this tutorial, you will learn how to make a simple weather station that detec
 -   1 10k ohm resistor (brown black orange) - see right
 
 ## Instructions
-
 1.  Log into [io.adafruit.com](io.adafruit.com){:target="_blank"} (if you haven’t created an account yet, you can do that now). Along the left sidebar, click **Feeds** and then **Actions > Create a New Feed**. Let’s create two feeds: one for temperature (name it “temperature”) and one for humidity (name it “humidity”)
 2.  Go to Dashboards on the left sidebar and then click **Actions > Create a New Dashboard**. Name the new dashboard anything you want. Once created, the new dashboard will appear on the page. Click on the name of your new dashboard
 3.  For now, the dashboard is blank. In step #4 we’re going to add **3 different blocks**. A block displays some kind of data coming from the Feather to Adafruit IO or vice versa

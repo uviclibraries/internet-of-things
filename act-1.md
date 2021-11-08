@@ -21,20 +21,20 @@ Before we start working on the IOT projects, let’s install all the necessary s
     -   Search for "ArduinoHttpClient" and click **Install**
 4.  Open the following URL in your web browser: [https://bit.ly/1QeAVwh](https://bit.ly/1QeAVwh){:target="_blank"}
     -   Copy the full URL of the web page as you’ll need it in the next step (the full URL is: http://arduino.esp8266.com/stable/package_esp8266com_index.json)
-    -   In your Arduino IDE, go to the **File** menu **> Preferences** (on a Mac **Arduino** menu **> Preferences**). A window will pop up. Under the **Settings** tab, go to **Additional Board Manager URLs** and copy/paste the above link in the field beside it
+    -   In your Arduino IDE, go to the **File** menu **-> Preferences** (on a Mac **Arduino** menu **-> Preferences**). A window will pop up. Under the **Settings** tab, go to **Additional Board Manager URLs** and copy/paste the above link in the field beside it
     -   Click **OK**
-5.  Go to **Tools > Board > Board Manager**. In the pop-up window, search for the esp8266 package. Click on the result and an install button will show up in the bottom right corner. Click it
+5.  Go to **Tools -> Board -> Board Manager**. In the pop-up window, search for the esp8266 package. Click on the result and an install button will show up in the bottom right corner. Click it
 6.  Double-check you have the right settings under **Tools**
-    -   Select: **Tools > Board > Adafruit Feather HUZZAH ESP8266**
-    -   Select: **Tools > CPU Frequency > 80 MHz**
-    -   Select: **Tools > Upload Speed > 115200 baud**
-7.  Connect the Feather Huzzah to your laptop. Go to **Tools > Port >** (select the right COM port)
+    -   Select: **Tools -> Board -> Adafruit Feather HUZZAH ESP8266**
+    -   Select: **Tools -> CPU Frequency -> 80 MHz**
+    -   Select: **Tools -> Upload Speed -> 115200 baud**
+7.  Connect the Feather Huzzah to your laptop. Go to **Tools -> Port ->** (select the right COM port)
     -   On a Mac, the port is labelled "SLAB_USBtoUART"
     -   (Note: you may have to reselect port when you unplug and replug the cable into your computer)
 8.  In your web browser, go to [io.adafruit.com](io.adafruit.com){:target="_blank"} and create an account
     -   After you’ve logged in, look at the left menu and click on **AIO Key**
     -   Copy the **Active Key** to your clipboard as you’ll need this in step #10 of the setup (your key should be in this format “2cf0197e930f406eb1f9374be6c87cf4”, but different of course)
-9.  In Arduino IDE, go to **File > Examples > Adafruit IO Arduino > adafruitio_00_publish** (this is near the bottom of the menu). A window should pop up with some code in it
+9.  In Arduino IDE, go to **File -> Examples -> Adafruit IO Arduino -> adafruitio_00_publish** (this is near the bottom of the menu). A window should pop up with some code in it
 10.  Click on the **config.h** tab. Fill in the first four lines of code with the following required information:
 11.  Replace the highlighted sections with the following, taking care to **keep the quotation marks**:
 

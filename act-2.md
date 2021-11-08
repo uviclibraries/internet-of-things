@@ -1,6 +1,10 @@
 ---
 layout: default
-title: 1) Cropping and Exporting Photos
-nav_order: 2
+title: 2 - Reading Light from a Sensor
+nav_order: 3
 parent: Workshop Activities
 ---
+
+# Act-2
+
+[NEXT STEP: Make Your Own Weather Station](act-3.html){: .btn .btn-blue }

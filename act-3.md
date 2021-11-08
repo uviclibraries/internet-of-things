@@ -14,10 +14,10 @@ If you or your group have any questions, or get stuck as you work through this i
 In this tutorial, you will learn how to make a simple weather station that detects temperature and humidity
 
 ## List of Materials
-1.  Adafruit Feather HUZZAH board, breadboard, USB cable
-2.  1 AM2302 DHT22 Temperature and Humidity Sensor
-3.  4 jumper wires - 1 long red and 1 long black wire recommended but not essential
-4.  1 10k ohm resistor (brown black orange) - see right
+-   Adafruit Feather HUZZAH board, breadboard, USB cable
+-   1 AM2302 DHT22 Temperature and Humidity Sensor
+-   4 jumper wires - 1 long red and 1 long black wire recommended but not essential
+-   1 10k ohm resistor (brown black orange) - see right
 
 ## Instructions
 
@@ -48,7 +48,7 @@ In this tutorial, you will learn how to make a simple weather station that detec
      temperature->save(fahrenheit);
      ```
      
-     Delete fahrenheit in `save(fahrenheit);` being sure to leave the brackets intact. Replace it with celsius, using all lowercase letters
+     Delete fahrenheit in `save(fahrenheit);` being sure to leave the brackets intact. Replace it with `celsius`, using all lowercase letters
 
 17.  Next, we need to be able to connect to WiFi and our Adafruit account. Click on the config.h tab. In the Arduino program on your laptop, fill in the 4 lines of info as we did at the start of the workshop
 18.  Connect Feather to your laptop and make sure the right Board and Port settings are selected. Click upload (the right arrow icon in the top left corner of the window). Our gauges should now display the temperature and humidity!

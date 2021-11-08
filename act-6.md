@@ -1,6 +1,10 @@
 ---
 layout: default
-title: 1) Cropping and Exporting Photos
-nav_order: 2
+title: 6 - Weasley Whereabout Clock
+nav_order: 7
 parent: Workshop Activities
 ---
+
+# Act-6
+
+[NEXT STEP: Earn a Workshop Badge](informal-credentials.html){: .btn .btn-blue }

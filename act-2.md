@@ -18,7 +18,6 @@ In this tutorial, you will learn how to detect light with a sensor and relay tha
 -   1 k-ohm resistor in order for this to work (brown - black - red - gold)
 
 ## Instructions
-
 1.  Log into [io.adafruit.com](io.adafruit.com){:target="_blank"} (if you haven’t created an account yet, you can do that now). Along the left sidebar, click **Feeds** and then **Actions -> Create a New Feed**. Name your feed “analog”
     -   Analog in this case refers to the type of input the computer receives -- that is, analog input rather than digital input. Analog input can give you a range of values (0‒1024 in Adafruit IO) whereas digital input can only give you 2 values (0 or 1)
     

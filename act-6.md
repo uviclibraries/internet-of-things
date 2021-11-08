@@ -22,8 +22,8 @@ In the Harry Potter series, the Weasley whereabouts clock is a clock that shows 
 -   Scissors
 
 ## Instructions
-1\.  Log into io.adafruit.com (if you haven’t created an account yet, you can do that now). Along the left sidebar, click **Feeds** and then **Actions > Create a New Feed**. Name your feed “Servo”. A description is optional, but you can make one for your own reference
-2\.  Go to **Dashboards** on the left sidebar and then click **Actions > Create a New Dashboard**. Name the new dashboard “Weasley Clock”. Once created, the new dashboard will appear on the page. Click on the link to your new dashboard
+1\.  Log into io.adafruit.com (if you haven’t created an account yet, you can do that now). Along the left sidebar, click **Feeds** and then **Actions -> Create a New Feed**. Name your feed “Servo”. A description is optional, but you can make one for your own reference
+2\.  Go to **Dashboards** on the left sidebar and then click **Actions -> Create a New Dashboard**. Name the new dashboard “Weasley Clock”. Once created, the new dashboard will appear on the page. Click on the link to your new dashboard
 3\.  For now, the dashboard is blank. Add a block by clicking the **blue plus sign**. Select the **number slider** (see picture on right). When the pop-up prompts you to select a feed, pick the **Servo** feed you just created
 4\.  Fill out the block settings as follows:
     -   **0** for **Slider Min Value**
@@ -37,7 +37,7 @@ In the Harry Potter series, the Weasley whereabouts clock is a clock that shows 
     -   **Red -> USB**
     -   **Black -> GND**
     -   **White -> Pin 2**
-7\.  Open the Arduino software. Go to **File > Examples > Adafruit IO Arduino > adafruitio_16_servo**.  A new sketch should pop up. A sketch is a program or batch of instructions for our Feather HUZZAH
+7\.  Open the Arduino software. Go to **File -> Examples -> Adafruit IO Arduino -> adafruitio_16_servo**.  A new sketch should pop up. A sketch is a program or batch of instructions for our Feather HUZZAH
 8\.  Click on the **config.h** tab.  Edit the code to add your **IO_Username**, **IO_Key**, along with the **wifi username** and **password**. You can find your Adafruit IO credentials at https://io.adafruit.com by clicking on the **View AIO Key** button
 9\.  Connect Feather Huzzah to your laptop and make sure the right Board and Port settings are selected. Click **upload** (the right arrow icon in the top left corner of the window)
 10\.  Now try adjusting the slider on your computer. The servo should now move when you change the slider

@@ -32,9 +32,21 @@ parent: Workshop Activities
 ## Connecting to an IFTTT Applet
 1.  Go to [ifttt.com](https://ifttt.com/){:target="_blank"} and log in or setup an account if you haven’t already. Create a new applet on IFTTT by clicking **My Applets** and then **New Applet**
 2.  Click on the big blue **+this** button to open service options, and search for “Adafruit”
-    -   Select the Adafruit service
-    -   asdf
-    -   asdf
-    -   asdf
+    -   Select the **Adafruit** service
+    -   Press the **Connect** button. A popup window will appear; press the **AUTHORIZE** button at the bottom
+    -   Select **Monitor a feed on Adafruit IO**
+    -   Select **command** from the drop down box, select **equal to** from the Relationship drop down, and in the value field, enter **1**. Now press **Create Trigger**
+3.  Click on big blue **+that** button to select an output service
+4.  Click on an output device to your liking (e.g. text, twitter, facebook, etc.).  Some ideas:
+    -   Spotify - save a track, or add track to playlist
+    -   Facebook messenger / sms - receive a text
+    -   Email/Gmail
+    -   Twitter/facebook - make a status update
+    -   The list goes on! Browse around until you find something to your liking
+5.  You will be asked if you want to connect to the service. Click **Connect**, and then **Accept**
+6.  Click through to customize the message, and click on **Create action**
+7.  Click **Finish**. Now every time you press the button, you should receive a text, email, message, or call (depending on how you’ve configured it!)
+
+Great job!
 
 [NEXT STEP: Motion Sensor to Send a Message](act-5.html){: .btn .btn-blue }

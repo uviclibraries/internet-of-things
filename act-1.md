@@ -5,6 +5,8 @@ nav_order: 2
 parent: Workshop Activities
 ---
 
+//<img src="images/act-1/logo.png" alt="" style="float:right;width:180px;">
+
 # Setting Up The Feather Huzzah
 
 Before we start working on the IOT projects, let’s install all the necessary software and drivers on your laptop. Many people find it helpful to also use the digital version of this document to click on URL’s: https://richmccue.github.io/internet-of-things/act-1.html

@@ -5,7 +5,7 @@ nav_order: 2
 parent: Workshop Activities
 ---
 
-//<img src="images/act-1/logo.png" alt="" style="float:right;width:180px;">
+<!---   <img src="images/act-1/logo.png" alt="" style="float:right;width:180px;">   -->
 
 # Setting Up The Feather Huzzah
 

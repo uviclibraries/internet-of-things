@@ -5,7 +5,11 @@ nav_order: 5
 parent: Workshop Activities
 ---
 
+<!---   <img src="images/act-4/1-res.png" alt="resistor" style="float:right;width:180px;">   -->
+
 # Press a Button to Send a Message (Facebook, Twitter, Email)
+
+<img src="images/act-4/1-breadboard.png" alt="breadboard" style="float:right;width:360px;">
 
 ## Materials Needed
 -   1 Adafruit Feather Huzzah (a type of Arduino board)
@@ -21,15 +25,24 @@ parent: Workshop Activities
 3.  Plug your USB cable into your computer.  Go to **Tools -> Port** and select the port your Feather Huzzah is on. Now compile and upload code and watch the light turn on as you press the button!
 
     ## Triggering an Action: Create an Adafruit IO Web Feed
+    
+    <img src="images/act-4/3-serial.png" alt="serial monitor" style="float:right;width:180px;">
+    
 4.  Click the magnifying glass in the top-right corner to open the serial monitor. The serial (named for serial communication) monitor shows you the values that the Feather is reading from the button. Now press the button and watch the output change!
 5.  Exit out of all of your Arduino IDE windows, and shutdown the program
 6.  Go to [http://bit.ly/2JSBlMY](http://bit.ly/2JSBlMY){:target="_blank"}. A download of an Arduino program (called a “sketch”) will automatically start. In your Arduino code editor, go to **File > Open** and select the file. Save it
     -   Edit the code to add your **IO_Username**, **IO_Key**, along with the **wifi username** and **password**. You can find your IO credentials at [https://io.adafruit.com](https://io.adafruit.com){:target="_blank"} by clicking on the **View AIO Key** button
+
+        <img src="images/act-4/6-view.png" alt="view" style="float:right;width:180px;">
+
     -   Now compile and upload code by clicking the **Upload** arrow on the top navigation bar
     -   After the code is loaded, go to in Adafruit IO. Click **Feeds** and open your command feed
     -   Click on the button on your Feather Huzzah, and you’ll see the graph on the Adafruit IO website update. Great job!
 
     ## Connecting to an IFTTT Applet
+    
+    <img src="images/act-4/7-applet.png" alt="applet" style="float:right;width:180px;">
+    
 7.  Go to [ifttt.com](https://ifttt.com/){:target="_blank"} and log in or setup an account if you haven’t already. Create a new applet on IFTTT by clicking **My Applets** and then **New Applet**
 8.  Click on the big blue **+this** button to open service options, and search for “Adafruit”
     -   Select the **Adafruit** service
@@ -46,6 +59,9 @@ parent: Workshop Activities
 11.  You will be asked if you want to connect to the service. Click **Connect**, and then **Accept**
 12.  Click through to customize the message, and click on **Create action**
 13.  Click **Finish**. Now every time you press the button, you should receive a text, email, message, or call (depending on how you’ve configured it!)
+
+<img src="images/act-4/1-res.png" alt="resistor" style="float:right;width:180px;">
+<img src="images/act-4/1-res.png" alt="resistor" style="float:right;width:180px;">
 
 Great job!
 

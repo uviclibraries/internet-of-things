@@ -9,7 +9,7 @@ parent: Workshop Activities
 
 <img src="images/act-5/1-motion.png" alt="resistor" style="float:right;width:180px;">
 
-## Materials Needed CHANGED2
+## Materials Needed
 -   1 Adafruit Feather Huzzah (a type of Arduino board)
 -   1 PIR motion detector
 -   1 breadboard
@@ -20,7 +20,7 @@ parent: Workshop Activities
 -   2 red  wires, 2 black wires, 1 other coloured wire
 -   1 10K ohm resistor (brown - black - orange - gold)
 
-## Hardware Setup CHANGED2
+## Hardware Setup
 
 1.  Connect parts as in the diagram:
     

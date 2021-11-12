@@ -17,7 +17,7 @@ parent: Workshop Activities
 -   1 breadboard
 -   1 LED light
 
-    <img src="images/act-5/1-res.png" alt="resistor" style="float:right;width:180px;">
+    <img src="images/act-2/1-res.png" alt="resistor" style="float:right;width:180px;">
 
 -   2 red  wires, 2 black wires, 1 other coloured wire
 -   1 10K ohm resistor (brown - black - orange - gold)

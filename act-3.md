@@ -18,7 +18,7 @@ In this tutorial, you will learn how to make a simple weather station that detec
 ## List of Materials
 -   Adafruit Feather HUZZAH board, breadboard, USB cable
 
-    <img src="images/act-3/1-res.png" alt="resistor" style="float:right;width:180px;">
+    <img src="images/act-3/1-res.png" alt="resistor" style="float:right;width:90px;">
 
 -   1 AM2302 DHT22 Temperature and Humidity Sensor
 -   4 jumper wires - 1 long red and 1 long black wire recommended but not essential

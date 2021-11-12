@@ -5,18 +5,28 @@ nav_order: 6
 parent: Workshop Activities
 ---
 
+<!---   <img src="images/act-5/1-res.png" alt="resistor" style="float:right;width:180px;">   -->
+
 # Motion Sensor to Send a Message (Facebook, Twitter, Email)
+
+<img src="images/act-5/1-motion.png" alt="resistor" style="float:right;width:180px;">
 
 ## Materials Needed
 -   1 Adafruit Feather Huzzah (a type of Arduino board)
 -   1 PIR motion detector
 -   1 breadboard
 -   1 LED light
+
+    <img src="images/act-5/1-res.png" alt="resistor" style="float:right;width:180px;">
+
 -   2 red  wires, 2 black wires, 1 other coloured wire
 -   1 10K ohm resistor (brown - black - orange - gold)
 
     ## Hardware Setup
 1.  Connect parts as in the diagram:
+    
+    <img src="images/act-5/1-breadboard.png" alt="resistor" style="float:right;width:180px;">
+    
     -   The **PIR motion sensor** should be connected facing out in **J1** to **J3** on the breadboard
     -   The long leg of the **LED** should be placed in the same row as **pin 13** on the adafruit board and the other leg into a **“-”** hole on the edge
     -   A **black wire** should connect to the hole next to the **GND** pin, and then to a **“-”** on the edge of the board as shown above
@@ -38,6 +48,8 @@ parent: Workshop Activities
     -   Now compile and upload code by clicking the **Upload** arrow on the top navigation bar
     -   After the code is loaded, go into Adafruit IO. Click **Feeds** and open your command feed
     -   Click on the button on your Feather Huzzah, and you’ll see the graph on the Adafruit IO website update. Great job!
+
+    <img src="images/act-5/5-applet.png" alt="resistor" style="float:right;width:180px;">
 
     ## Connecting to an IFTTT Applet
 6.  Go to [ifttt.com](https://ifttt.com/){:target="_blank"} and log in or setup an account if you haven’t already. Create a new applet on IFTTT by clicking **My Applets** & then **New Applet** button

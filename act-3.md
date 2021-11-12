@@ -15,17 +15,18 @@ If you or your group have any questions, or get stuck as you work through this i
 
 In this tutorial, you will learn how to make a simple weather station that detects temperature and humidity
 
-<img src="images/act-3/1-res.png" alt="resistor" style="float:right;width:180px;">
-
 ## List of Materials
 -   Adafruit Feather HUZZAH board, breadboard, USB cable
+
+    <img src="images/act-3/1-res.png" alt="resistor" style="float:right;width:180px;">
+
 -   1 AM2302 DHT22 Temperature and Humidity Sensor
 -   4 jumper wires - 1 long red and 1 long black wire recommended but not essential
 -   1 10k ohm resistor (brown black orange) - see right
 
 ## Instructions
 
-<img src="images/act-3/1-menu.png" alt="menu" style="float:right;width:180px;">
+<img src="images/act-3/1-menu.png" alt="menu" style="float:right;width:360px;">
 
 1.  Log into [io.adafruit.com](io.adafruit.com){:target="_blank"} (if you haven’t created an account yet, you can do that now). Along the left sidebar, click **Feeds** and then **Actions > Create a New Feed**. Let’s create two feeds: one for temperature (name it “temperature”) and one for humidity (name it “humidity”)
 2.  Go to Dashboards on the left sidebar and then click **Actions > Create a New Dashboard**. Name the new dashboard anything you want. Once created, the new dashboard will appear on the page. Click on the name of your new dashboard
@@ -33,11 +34,11 @@ In this tutorial, you will learn how to make a simple weather station that detec
     -   A **gauge** for reading temperature
     -   A **gauge** for reading humidity
     -   A **line graph** for comparing the two over the last 24 hours
-
-    <img src="images/act-3/4-blocksettings2.png" alt="block settings" style="float:right;width:180px;">
-    <img src="images/act-3/4-blocksettings.png" alt="block settings" style="float:right;width:180px;">
-
 4.  Click the blue plus sign to add each block to your dashboard. Add the temperature and humidity gauges, selecting the appropriate feed to read your data from. Fill out the settings as pictured on the side
+
+    <img src="images/act-3/4-blocksettings2.png" alt="block settings" style="float:right;width:360px;">
+    <img src="images/act-3/4-blocksettings.png" alt="block settings" style="float:right;width:360px;">
+
 5.  Create a Line Chart to witness a trend. Select 8 hours and 0 decimal places in the settings window and click Update Block
 6.  Unplug the Feather from your laptop. Now we’ll wire the circuit. Remember that everything on the same row (A-E or F-J) is connected. Connect the circuit as shown below. (There are also written instructions.) \*\*\*the breadboards supplied with the feather huzzah - I find it useful to state which pin on the breadboard corresponds to which pin on the feather - though this is personal preference. Feel free to reject these changes!
 

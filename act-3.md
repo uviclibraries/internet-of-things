@@ -30,15 +30,15 @@ In this tutorial, you will learn how to make a simple weather station that detec
     <img src="images/act-3/1-menu.png" alt="menu" style="width:720px;">
 
 2.  Go to Dashboards on the left sidebar and then click **Actions > Create a New Dashboard**. Name the new dashboard anything you want. Once created, the new dashboard will appear on the page. Click on the name of your new dashboard
+
+    <img src="images/act-3/4-blocksettings2.png" alt="block settings" style="float:right;width:480px;">
+    <img src="images/act-3/4-blocksettings.png" alt="block settings" style="float:right;width:480px;">
+
 3.  For now, the dashboard is blank. In step #4 we’re going to add **3 different blocks**. A block displays some kind of data coming from the Feather to Adafruit IO or vice versa
     -   A **gauge** for reading temperature
     -   A **gauge** for reading humidity
     -   A **line graph** for comparing the two over the last 24 hours
 4.  Click the blue plus sign to add each block to your dashboard. Add the temperature and humidity gauges, selecting the appropriate feed to read your data from. Fill out the settings as pictured below
-
-    <img src="images/act-3/4-blocksettings2.png" alt="block settings" style="float:left;width:480px;">
-    <img src="images/act-3/4-blocksettings.png" alt="block settings" style="float:left;width:480px;">
-
 5.  Create a Line Chart to witness a trend. Select 8 hours and 0 decimal places in the settings window and click Update Block
 6.  Unplug the Feather from your laptop. Now we’ll wire the circuit. Remember that everything on the same row (A-E or F-J) is connected. Connect the circuit as shown below. (There are also written instructions.) \*\*\*the breadboards supplied with the feather huzzah - I find it useful to state which pin on the breadboard corresponds to which pin on the feather - though this is personal preference. Feel free to reject these changes!
 

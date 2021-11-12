@@ -5,6 +5,8 @@ nav_order: 7
 parent: Workshop Activities
 ---
 
+<img src="images/act-6/1-res.png" alt="resistor" style="float:right;width:180px;">
+
 # Weasley Whereabouts Clock
 
 If you or your group have any questions or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!

@@ -23,10 +23,10 @@ In this tutorial, you will learn how to detect light with a sensor and relay tha
 -   1 k-ohm resistor in order for this to work (brown - black - red - gold)
 
 ## Instructions
-
-<img src="images/act-2/4-menu.png" alt="menu" style="float:right;width:360px;">
-
 1.  Log into [io.adafruit.com](io.adafruit.com){:target="_blank"} (if you haven’t created an account yet, you can do that now). Along the left sidebar, click **Feeds** and then **Actions -> Create a New Feed**. Name your feed “analog”
+    
+    <img src="images/act-2/4-menu.png" alt="menu" style="width:720px;">
+    
     -   Analog in this case refers to the type of input the computer receives -- that is, analog input rather than digital input. Analog input can give you a range of values (0‒1024 in Adafruit IO) whereas digital input can only give you 2 values (0 or 1)
     
 2.  Go to Dashboards on the left sidebar and then click **Actions > Create a New Dashboard**. Name the new dashboard “Light Sensor”. Once created, the new dashboard will appear on the page. Click on the name of your new dashboard
@@ -56,4 +56,4 @@ In this tutorial, you will learn how to detect light with a sensor and relay tha
 8.  Connect Feather to your laptop and **make sure the right Board and Port settings are selected**. Click the **upload** arrow (the right arrow icon in the top left corner of the window)
 9.  Cover the light sensor with a finger and watch the value of the gauge decrease. Then slowly lift your finger further and further away and watch it change!
 
-<br><br><br>[NEXT STEP: Make Your Own Weather Station](act-3.html){: .btn .btn-blue }
+<br><br><br><br><br>[NEXT STEP: Make Your Own Weather Station](act-3.html){: .btn .btn-blue }

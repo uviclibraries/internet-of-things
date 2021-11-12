@@ -66,3 +66,7 @@ parent: Workshop Activities
 9.  Click Finish. Now every time you press the button, you should receive a text, email, message, or call (depending on how you’ve configured it!)
 
 [NEXT STEP: Weasley Whereabout Clock](act-6.html){: .btn .btn-blue }
+
+(A) some stuff
+(B) some more stuff
+(C) some extra stuff

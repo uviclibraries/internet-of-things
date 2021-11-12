@@ -67,6 +67,6 @@ parent: Workshop Activities
 
 [NEXT STEP: Weasley Whereabout Clock](act-6.html){: .btn .btn-blue }
 
-(A) some stuff
-(B) some more stuff
-(C) some extra stuff
+i. some stuff
+ii. some more stuff
+iii. some extra stuff

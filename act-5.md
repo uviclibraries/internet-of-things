@@ -35,13 +35,14 @@ parent: Workshop Activities
     -   A **wire** (any colour, but yellow above) should connect to the hole next to the **SCL** pin, and the other end should connect a hole in line with the middle prong of the **PIR** (labeled **VCC**)
     -   A **10K ohm resistor** should be connected to a hole in line with the **SCL** pin, and the other end in a **“-”** hole on the edge of the board
 2.  Download & the open the following file in your Arduino editor, then save it: [http://bit.ly/2JPqHTO](http://bit.ly/2JPqHTO){:target="_blank"}
-3.  Plug your USB cable into your computer.  Go to **Tools -> Port** and select the port your Feather Huzzah is on
+
+(A) Plug your USB cable into your computer.  Go to **Tools -> Port** and select the port your Feather Huzzah is on
     -   Now compile and upload code, and wave your hand in front of the PIR motion sensor and watch the LED light up!
     -   **Note:** you may need to adjust the orange sensitivity & delay dials with a phillips screwdriver
 
-    ## Triggering an Action Online: Create an Adafruit IO Web Feed
+## Triggering an Action Online: Create an Adafruit IO Web Feed
 
-4.  Exit out of all of your Arduino IDE windows, and shutdown the program
+(B) Exit out of all of your Arduino IDE windows, and shutdown the program
 5.  Download & open the following new file in your Arduino code editor, and then save it: [http://bit.ly/2JSBlMY](http://bit.ly/2JSBlMY){:target="_blank"}
     -   Edit the code to add your **IO_Username**, **IO_Key**, along with the **wifi username** and **password**. You can find your Adafruit IO credentials at [https://io.adafruit.com](https://io.adafruit.com){:target="_blank"} by clicking on the **View AIO Key** button
     -   Now compile and upload code by clicking the **Upload** arrow on the top navigation bar

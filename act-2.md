@@ -5,8 +5,6 @@ nav_order: 3
 parent: Workshop Activities
 ---
 
-<!---   <img src="images/act-2/logo.png" alt="" style="float:right;width:180px;">   -->
-
 # Reading Light from a Sensor
 
 _Adapted from [Adafruit IO: Basics - AnalogIn](https://learn.adafruit.com/adafruit-io-basics-analog-input){:target="_blank"} by Todd Treece_
@@ -14,17 +12,19 @@ _Adapted from [Adafruit IO: Basics - AnalogIn](https://learn.adafruit.com/adafru
 In this tutorial, you will learn how to detect light with a sensor and relay that info to Adafruit IO. If you or your group have any questions, or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!
 
 <img src="images/act-2/1-photores.png" alt="photoresistor" style="float:right;width:180px;">
-<img src="images/act-2/1-res.png" alt="resistor" style="float:right;width:180px;">
 
 ## List of Materials
 -   Adafruit Feather HUZZAH board, breadboard, USB cable
 -   Photoresistor or light sensor (below)
+
+    <img src="images/act-2/1-res.png" alt="resistor" style="float:right;width:180px;">
+
 -   3 jumper wires
 -   1 k-ohm resistor in order for this to work (brown - black - red - gold)
 
 ## Instructions
 
-<img src="images/act-2/4-menu.png" alt="menu" style="float:right;width:180px;">
+<img src="images/act-2/4-menu.png" alt="menu" style="float:right;width:360px;">
 
 1.  Log into [io.adafruit.com](io.adafruit.com){:target="_blank"} (if you haven’t created an account yet, you can do that now). Along the left sidebar, click **Feeds** and then **Actions -> Create a New Feed**. Name your feed “analog”
     -   Analog in this case refers to the type of input the computer receives -- that is, analog input rather than digital input. Analog input can give you a range of values (0‒1024 in Adafruit IO) whereas digital input can only give you 2 values (0 or 1)
@@ -49,11 +49,11 @@ In this tutorial, you will learn how to detect light with a sensor and relay tha
 
     <img src="images/act-2/5-breadboard.png" alt="" style="width:720px;">
     
-    <img src="images/act-2/5-speed.png" alt="speed" style="float:right;width:180px;">
+    <img src="images/act-2/5-speed.png" alt="speed" style="float:right;width:360px;">
 
 6.  Open the Arduino software. Make sure you have the correct libraries installed (if not, ask an instructor). Go to **File -> Examples -> Adafruit IO Arduino -> adafruitio_08_analogin**. A new sketch should pop up. A sketch is a program or batch of instructions for our Feather HUZZAH
 7.  Click on the **config.h** tab near the top. Fill in the 4 lines of info as we did at the start of the workshop
 8.  Connect Feather to your laptop and **make sure the right Board and Port settings are selected**. Click the **upload** arrow (the right arrow icon in the top left corner of the window)
 9.  Cover the light sensor with a finger and watch the value of the gauge decrease. Then slowly lift your finger further and further away and watch it change!
 
-[NEXT STEP: Make Your Own Weather Station](act-3.html){: .btn .btn-blue }
+<br><br><br>[NEXT STEP: Make Your Own Weather Station](act-3.html){: .btn .btn-blue }

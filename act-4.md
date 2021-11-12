@@ -60,8 +60,8 @@ parent: Workshop Activities
 12.  Click through to customize the message, and click on **Create action**
 13.  Click **Finish**. Now every time you press the button, you should receive a text, email, message, or call (depending on how you’ve configured it!)
 
-<img src="images/act-4/1-res.png" alt="resistor" style="float:right;width:180px;">
-<img src="images/act-4/1-res.png" alt="resistor" style="float:right;width:180px;">
+<img src="images/act-4/12-review.png" alt="resistor" style="float:right;width:180px;">
+<img src="images/act-4/12-send.png" alt="resistor" style="float:right;width:180px;">
 
 Great job!
 

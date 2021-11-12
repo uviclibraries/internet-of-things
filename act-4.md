@@ -46,10 +46,10 @@ parent: Workshop Activities
     -   Press the **Connect** button. A popup window will appear; press the **AUTHORIZE** button at the bottom
     -   Select **Monitor a feed on Adafruit IO**
     -   Select **command** from the drop down box, select **equal to** from the Relationship drop down, and in the value field, enter **1**. Now press **Create Trigger**
+9.  Click on big blue **+that** button to select an output service
 
     <img src="images/act-4/12-review.png" alt="resistor" style="float:right;width:360px;">
 
-9.  Click on big blue **+that** button to select an output service
 10.  Click on an output device to your liking (e.g. text, twitter, facebook, etc.).  Some ideas:
      -   Spotify - save a track, or add track to playlist
      -   Facebook messenger / sms - receive a text

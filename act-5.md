@@ -9,7 +9,7 @@ parent: Workshop Activities
 
 <img src="images/act-5/1-motion.png" alt="resistor" style="float:right;width:180px;">
 
-## Materials Needed
+    **Materials Needed**
 -   1 Adafruit Feather Huzzah (a type of Arduino board)
 -   1 PIR motion detector
 -   1 breadboard
@@ -66,7 +66,3 @@ parent: Workshop Activities
 9.  Click Finish. Now every time you press the button, you should receive a text, email, message, or call (depending on how you’ve configured it!)
 
 [NEXT STEP: Weasley Whereabout Clock](act-6.html){: .btn .btn-blue }
-
-i. some stuff
-ii. some more stuff
-iii. some extra stuff

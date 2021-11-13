@@ -20,7 +20,7 @@ parent: Workshop Activities
 -   2 red  wires, 2 black wires, 1 other coloured wire
 -   1 10K ohm resistor (brown - black - orange - gold)
 
-    **Hardware Setup**
+    **Hardware Setup**<br>
 1.  Connect parts as in the diagram:
     
     <img src="images/act-5/1-breadboard.png" alt="resistor" style="width:720px;">

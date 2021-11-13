@@ -25,7 +25,7 @@ In the Harry Potter series, the Weasley whereabouts clock is a clock that shows 
 -   Small screwdriver
 -   Scissors
 
-    ## Instructions
+    **Instructions**
 
     <img src="images/act-6/4-createfeed.png" alt="resistor" style="float:right;width:480px;">
 
@@ -41,7 +41,7 @@ In the Harry Potter series, the Weasley whereabouts clock is a clock that shows 
     -   **10** for **Slider Step Size**
     Select **Create Block** to save it to your dashboard
 
-    ## Hardware
+    **Hardware**
 5.  If your servo is arm-less, grab a screwdriver, plastic arm of your choice, and a screw from the baggies in the servo motor box. Screw the arm onto the motor
 
     <img src="images/act-6/6-breadboard.jpg" alt="resistor" style="float:right;width:480px;">

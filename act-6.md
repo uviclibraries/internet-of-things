@@ -45,7 +45,7 @@ In the Harry Potter series, the Weasley whereabouts clock is a clock that shows 
 5.  If your servo is arm-less, grab a screwdriver, plastic arm of your choice, and a screw from the baggies in the servo motor box. Screw the arm onto the motor
 
     <img src="images/act-6/6-breadboard.jpg" alt="resistor" style="float:right;width:480px;">
-    <img src="images/act-6/6-pins.jpg" alt="resistor" style="float:right;width:240px;">
+    <img src="images/act-6/6-pins.jpg" alt="resistor" style="float:right;width:240px;margin-top:10px;">
 
 6.  Unplug the Feather from your laptop. Now we’ll connect the servo motor, a small motor with an arm attached, to Feather. We can send instructions from Arduino to the servo to control the position of the arm. Connect the servo as pictured to the side:
     -   **Red -> USB**

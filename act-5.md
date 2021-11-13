@@ -9,7 +9,7 @@ parent: Workshop Activities
 
 <img src="images/act-5/1-motion.png" alt="resistor" style="float:right;width:180px;">
 
-    **Materials Needed**
+   **Materials Needed**
 -   1 Adafruit Feather Huzzah (a type of Arduino board)
 -   1 PIR motion detector
 -   1 breadboard

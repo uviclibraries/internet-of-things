@@ -5,8 +5,6 @@ nav_order: 7
 parent: Workshop Activities
 ---
 
-<!---   <img src="images/act-6/1-res.png" alt="resistor" style="float:right;width:180px;">   -->
-
 <img src="images/act-6/1-clock.jpg" alt="resistor" style="float:right;width:180px;">
 
 # Weasley Whereabouts Clock
@@ -15,7 +13,7 @@ If you or your group have any questions or get stuck as you work through this in
 
 In the Harry Potter series, the Weasley whereabouts clock is a clock that shows the location of each Weasley rather than the time (Adapted from [Adafruit IO: Basics - Servo](https://learn.adafruit.com/adafruit-io-basics-servo/overview){:target="_blank"} by Todd Treece)
 
-## List of Materials
+&nbsp;&nbsp;&nbsp;&nbsp;**List of Materials**
 -   Adafruit Feather HUZZAH board, breadboard, USB cable
 -   Two pieces of foam board: 1 clock face, 1 small square
 -   A sharpie or other writing/colouring implement
@@ -25,9 +23,10 @@ In the Harry Potter series, the Weasley whereabouts clock is a clock that shows 
 -   Small screwdriver
 -   Scissors
 
-<img src="images/act-6/4-createfeed.png" alt="resistor" style="float:right;width:180px;">
+    <img src="images/act-6/4-createfeed.png" alt="resistor" style="float:right;width:180px;">
 
-## Instructions
+    ## Instructions
+
 1.  Log into io.adafruit.com (if you haven’t created an account yet, you can do that now). Along the left sidebar, click **Feeds** and then **Actions -> Create a New Feed**. Name your feed “Servo”. A description is optional, but you can make one for your own reference
 2.  Go to **Dashboards** on the left sidebar and then click **Actions -> Create a New Dashboard**. Name the new dashboard “Weasley Clock”. Once created, the new dashboard will appear on the page. Click on the link to your new dashboard
 3.  For now, the dashboard is blank. Add a block by clicking the **blue plus sign**. Select the **number slider** (see picture on right). When the pop-up prompts you to select a feed, pick the **Servo** feed you just created

@@ -20,7 +20,8 @@ parent: Workshop Activities
 -   2 red  wires, 2 black wires, 1 other coloured wire
 -   1 10K ohm resistor (brown - black - orange - gold)
 
-    **Hardware Setup**<br>
+    **Hardware Setup**
+
 1.  Connect parts as in the diagram:
     
     <img src="images/act-5/1-breadboard.png" alt="resistor" style="width:720px;">
@@ -39,6 +40,7 @@ parent: Workshop Activities
     -   **Note:** you may need to adjust the orange sensitivity & delay dials with a phillips screwdriver
 
     **Triggering an Action Online: Create an Adafruit IO Web Feed**
+
 4.  Exit out of all of your Arduino IDE windows, and shutdown the program
 5.  Download & open the following new file in your Arduino code editor, and then save it: [http://bit.ly/2JSBlMY](http://bit.ly/2JSBlMY){:target="_blank"}
     -   Edit the code to add your **IO_Username**, **IO_Key**, along with the **wifi username** and **password**. You can find your Adafruit IO credentials at [https://io.adafruit.com](https://io.adafruit.com){:target="_blank"} by clicking on the **View AIO Key** button

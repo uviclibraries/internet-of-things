@@ -7,14 +7,15 @@ parent: Workshop Activities
 
 # Press a Button to Send a Message (Facebook, Twitter, Email)
 
-## Materials Needed
+&nbsp;&nbsp;&nbsp;&nbsp;**Materials Needed**
 -   1 Adafruit Feather Huzzah (a type of Arduino board)
 -   1 pushbutton
 -   1 breadboard
 -   1 LED
 
-<img src="images/act-4/1-breadboard.png" alt="breadboard" style="float:right;width:360px;">
-## Hardware Setup
+    <img src="images/act-4/1-breadboard.png" alt="breadboard" style="float:right;width:360px;">
+
+    ## Hardware Setup
 1.  Connect parts as in the diagram:
     -   The long leg of the LED should be placed with the long leg in the same row as 13 on the adafruit board and the short leg grounded
     -   The push button should be connected to ground on one side and pin 4 on the adafruit on the other side

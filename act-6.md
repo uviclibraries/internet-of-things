@@ -9,11 +9,11 @@ parent: Workshop Activities
 
 Adapted from [Adafruit IO: Basics - Servo](https://learn.adafruit.com/adafruit-io-basics-servo/overview){:target="_blank"} by Todd Treece
 
-<img src="images/act-6/1-clock.jpg" alt="resistor" style="float:right;width:480px;">
-
 If you or your group have any questions or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!
 
 In the Harry Potter series, the Weasley whereabouts clock is a clock that shows the location of each Weasley rather than the time
+
+<img src="images/act-6/1-clock.jpg" alt="resistor" style="width:720px;">
 
 &nbsp;&nbsp;&nbsp;&nbsp;**List of Materials**
 -   Adafruit Feather HUZZAH board, breadboard, USB cable

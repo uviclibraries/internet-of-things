@@ -9,7 +9,7 @@ parent: Workshop Activities
 
 Before we start working on the IOT projects, let’s install all the necessary software and drivers on your laptop. Many people find it helpful to also use the digital version of this document to click on URL’s: https://richmccue.github.io/internet-of-things/act-1.html
 
-## Configuring Arduino IDE
+&nbsp;&nbsp;&nbsp;&nbsp;## Configuring Arduino IDE
 1.  Go to [goo.gl/eEXD4e](goo.gl/eEXD4e){:target="_blank"} and install the appropriate driver for your laptop
 2.  If you haven't already installed the Arduino IDE, go to [http://bit.ly/2LIKN2A](http://bit.ly/2LIKN2A){:target="_blank"}
     -   Download and install the software. **Note:** The software is in a zip file, so it may take a few steps before you are asked for your password during the install process. If you haven’t entered your password, you’re not done yet

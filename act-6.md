@@ -5,7 +5,7 @@ nav_order: 7
 parent: Workshop Activities
 ---
 
-# Weasley Whereabouts Clocksss
+# Weasley Whereabouts Clock
 
 Adapted from [Adafruit IO: Basics - Servo](https://learn.adafruit.com/adafruit-io-basics-servo/overview){:target="_blank"} by Todd Treece
 

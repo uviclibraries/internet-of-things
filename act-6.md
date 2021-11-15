@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 7 - Weasley Whereabouts Clock
+title: 6 - Weasley Whereabouts Clock
 nav_order: 7
 parent: Workshop Activities
 ---

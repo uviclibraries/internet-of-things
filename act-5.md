@@ -9,7 +9,8 @@ parent: Workshop Activities
 
 <img src="images/act-5/1-motion.png" alt="resistor" style="float:right;width:180px;">
 
-&nbsp;&nbsp;&nbsp;&nbsp;**Materials Needed**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Materials Needed**
+
 -   1 Adafruit Feather Huzzah (a type of Arduino board)
 -   1 PIR motion detector
 -   1 breadboard
@@ -20,8 +21,7 @@ parent: Workshop Activities
 -   2 red  wires, 2 black wires, 1 other coloured wire
 -   1 10K ohm resistor (brown - black - orange - gold)
 
-
-    **Hardware Setup**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Hardware Setup**
 
 1.  Connect parts as in the diagram:
     
@@ -40,8 +40,7 @@ parent: Workshop Activities
     -   Now compile and upload code, and wave your hand in front of the PIR motion sensor and watch the LED light up!
     -   **Note:** you may need to adjust the orange sensitivity & delay dials with a phillips screwdriver
 
-
-    **Triggering an Action Online: Create an Adafruit IO Web Feed**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Triggering an Action Online: Create an Adafruit IO Web Feed**
 
 4.  Exit out of all of your Arduino IDE windows, and shutdown the program
 5.  Download & open the following new file in your Arduino code editor, and then save it: [http://bit.ly/2JSBlMY](http://bit.ly/2JSBlMY){:target="_blank"}
@@ -50,8 +49,7 @@ parent: Workshop Activities
     -   After the code is loaded, go into Adafruit IO. Click **Feeds** and open your command feed
     -   Click on the button on your Feather Huzzah, and you’ll see the graph on the Adafruit IO website update. Great job!
 
-
-    **Connecting to an IFTTT Applet**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Connecting to an IFTTT Applet**
 
     <img src="images/act-5/5-applet.png" alt="resistor" style="float:right;width:480px;">
 

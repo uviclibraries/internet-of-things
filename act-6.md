@@ -25,6 +25,7 @@ In the Harry Potter series, the Weasley whereabouts clock is a clock that shows 
 -   Small screwdriver
 -   Scissors
 
+
     **Instructions**
 
     <img src="images/act-6/4-createfeed.png" alt="resistor" style="float:right;width:480px;">
@@ -40,6 +41,7 @@ In the Harry Potter series, the Weasley whereabouts clock is a clock that shows 
     -   **180** for **Slider Max Value**
     -   **10** for **Slider Step Size**
     Select **Create Block** to save it to your dashboard
+
 
     **Hardware**
 
@@ -60,9 +62,6 @@ In the Harry Potter series, the Weasley whereabouts clock is a clock that shows 
 
 10.  Now try adjusting the slider on your computer. The servo should now move when you change the slider
 11.  Poke a hole in the clock face for the motor. Use scissors, pen, or something else to poke a hole in the larger piece of foam board. Push the servo motor part-way through the board. Make sure it’s pushed through far enough—we don’t want the arm to hit the clock face as it turns! Test out the servo again to make sure it works
-
-     
-
 12.  Set your slider to **0** and note the position of the arm. Make a light mark on the foam where the arm is pointing. Unfortunately, the servo can only turn a maximum of 180 degrees, but we can make more positions (or places) anyway. For example, if we mark the clock face with 4 places at 12:00, 3:00, 6:00, and 9:00, the servo will only be able to point to 3 of them: that is, at 0, 90, and 180 degrees with the servo. If we mark 8 places, the servo could point to 5 of them (0, 45, 90, 135, and 180 degrees). However many places you choose to make, mark the position of the arm at each point
 13.  Using a Sharpie or some other writing implement, write the place names onto your clock face at each of the positions you marked
 

@@ -42,6 +42,7 @@ In the Harry Potter series, the Weasley whereabouts clock is a clock that shows 
     Select **Create Block** to save it to your dashboard
 
     **Hardware**
+
 5.  If your servo is arm-less, grab a screwdriver, plastic arm of your choice, and a screw from the baggies in the servo motor box. Screw the arm onto the motor
 
     <img src="images/act-6/6-breadboard.jpg" alt="resistor" style="float:right;width:480px;">

@@ -9,7 +9,7 @@ parent: Workshop Activities
 
 _Adapted from [Adafruit IO: Basics - Temperature and Humidity](https://learn.adafruit.com/adafruit-io-basics-temperature-and-humidity){:target="_blank"} by Todd Treece_
 
-<img src="images/act-3/1-weatherstation.png" alt="weather station" style="float:right;width:480px;">
+<img src="images/act-3/1-weatherstation.png" alt="weather station" style="float:right;width:480px;margin-left:10px;">
 
 If you or your group have any questions, or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!
 
@@ -33,8 +33,8 @@ In this tutorial, you will learn how to make a simple weather station that detec
 
 2.  Go to Dashboards on the left sidebar and then click **Actions > Create a New Dashboard**. Name the new dashboard anything you want. Once created, the new dashboard will appear on the page. Click on the name of your new dashboard
 
-    <img src="images/act-3/4-blocksettings2.png" alt="block settings" style="float:right;width:480px;">
-    <img src="images/act-3/4-blocksettings.png" alt="block settings" style="float:right;width:480px;">
+    <img src="images/act-3/4-blocksettings2.png" alt="block settings" style="float:right;width:480px;margin-left:10px;">
+    <img src="images/act-3/4-blocksettings.png" alt="block settings" style="float:right;width:480px;margin-left:10px">
 
 3.  For now, the dashboard is blank. In step #4 we’re going to add **3 different blocks**. A block displays some kind of data coming from the Feather to Adafruit IO or vice versa
     -   A **gauge** for reading temperature

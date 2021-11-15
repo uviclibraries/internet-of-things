@@ -48,7 +48,7 @@ parent: Workshop Activities
     -   After the code is loaded, go into Adafruit IO. Click **Feeds** and open your command feed
     -   Click on the button on your Feather Huzzah, and you’ll see the graph on the Adafruit IO website update. Great job!
 
-    **Connecting to an IFTTT Applet**<br>
+    **Connecting to an IFTTT Applet**
 
     <img src="images/act-5/5-applet.png" alt="resistor" style="float:right;width:480px;">
 

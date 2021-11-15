@@ -15,7 +15,7 @@ parent: Workshop Activities
 
     <img src="images/act-4/1-breadboard.png" alt="breadboard" style="float:right;width:360px;">
 
-    **Hardware Setup**<br>
+    **Hardware Setup**
 
 1.  Connect parts as in the diagram:
     -   The long leg of the LED should be placed with the long leg in the same row as 13 on the adafruit board and the short leg grounded
@@ -23,7 +23,7 @@ parent: Workshop Activities
 2.  Go to [https://bit.ly/2SOyZjC](https://bit.ly/2SOyZjC){:target="_blank"} and copy/paste the code into Arduino
 3.  Plug your USB cable into your computer.  Go to **Tools -> Port** and select the port your Feather Huzzah is on. Now compile and upload code and watch the light turn on as you press the button!
 
-    **Triggering an Action: Create an Adafruit IO Web Feed**<br>
+    **Triggering an Action: Create an Adafruit IO Web Feed**
     
     <img src="images/act-4/3-serial.png" alt="serial monitor" style="float:right;width:480px;">
     
@@ -38,7 +38,7 @@ parent: Workshop Activities
     -   After the code is loaded, go to in Adafruit IO. Click **Feeds** and open your command feed
     -   Click on the button on your Feather Huzzah, and you’ll see the graph on the Adafruit IO website update. Great job!
 
-    **Connecting to an IFTTT Applet**<br>
+    **Connecting to an IFTTT Applet**
     
     <img src="images/act-4/7-applet.png" alt="applet" style="float:right;width:480px;">
     

@@ -7,7 +7,7 @@ parent: Workshop Activities
 
 # Press a Button to Send a Message (Facebook, Twitter, Email)
 
-&nbsp;&nbsp;&nbsp;&nbsp;**Materials Needed**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Materials Needed**
 -   1 Adafruit Feather Huzzah (a type of Arduino board)
 -   1 pushbutton
 -   1 breadboard
@@ -15,8 +15,7 @@ parent: Workshop Activities
 
     <img src="images/act-4/1-breadboard.png" alt="breadboard" style="float:right;width:360px;">
 
-
-    **Hardware Setup**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Hardware Setup**
 
 1.  Connect parts as in the diagram:
     -   The long leg of the LED should be placed with the long leg in the same row as 13 on the adafruit board and the short leg grounded
@@ -24,8 +23,7 @@ parent: Workshop Activities
 2.  Go to [https://bit.ly/2SOyZjC](https://bit.ly/2SOyZjC){:target="_blank"} and copy/paste the code into Arduino
 3.  Plug your USB cable into your computer.  Go to **Tools -> Port** and select the port your Feather Huzzah is on. Now compile and upload code and watch the light turn on as you press the button!
 
-
-    **Triggering an Action: Create an Adafruit IO Web Feed**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Triggering an Action: Create an Adafruit IO Web Feed**
     
     <img src="images/act-4/3-serial.png" alt="serial monitor" style="float:right;width:480px;margin-left:10px;">
     

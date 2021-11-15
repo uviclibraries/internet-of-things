@@ -22,7 +22,7 @@ In this tutorial, you will learn how to detect light with a sensor and relay tha
 -   3 jumper wires
 -   1 k-ohm resistor in order for this to work (brown - black - red - gold)
 
-    **Instructions**<br>
+    **InstructionsCHANGED**<br>
     
 1.  Log into [io.adafruit.com](io.adafruit.com){:target="_blank"} (if you haven’t created an account yet, you can do that now). Along the left sidebar, click **Feeds** and then **Actions -> Create a New Feed**. Name your feed “analog”
     

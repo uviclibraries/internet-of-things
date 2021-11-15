@@ -15,7 +15,8 @@ In the Harry Potter series, the Weasley whereabouts clock is a clock that shows 
 
 <img src="images/act-6/1-clock.jpg" alt="resistor" style="width:720px;">
 
-&nbsp;&nbsp;&nbsp;&nbsp;**List of Materials**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**List of Materials**
+
 -   Adafruit Feather HUZZAH board, breadboard, USB cable
 -   Two pieces of foam board: 1 clock face, 1 small square
 -   A sharpie or other writing/colouring implement
@@ -25,7 +26,7 @@ In the Harry Potter series, the Weasley whereabouts clock is a clock that shows 
 -   Small screwdriver
 -   Scissors
 
-    **Instructions**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Instructions**
 
     <img src="images/act-6/4-createfeed.png" alt="resistor" style="float:right;width:480px;margin-left:10px;">
 
@@ -41,8 +42,7 @@ In the Harry Potter series, the Weasley whereabouts clock is a clock that shows 
     -   **10** for **Slider Step Size**
     Select **Create Block** to save it to your dashboard
 
-
-    **Hardware**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Hardware**
 
 5.  If your servo is arm-less, grab a screwdriver, plastic arm of your choice, and a screw from the baggies in the servo motor box. Screw the arm onto the motor
 

@@ -13,7 +13,7 @@ In this tutorial, you will learn how to detect light with a sensor and relay tha
 
 <img src="images/act-2/1-photores.png" alt="photoresistor" style="float:right;width:180px;">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**List of Materials**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**List of Materials**
 
 -   Adafruit Feather HUZZAH board, breadboard, USB cable
 -   Photoresistor or light sensor (below)
@@ -23,8 +23,7 @@ In this tutorial, you will learn how to detect light with a sensor and relay tha
 -   3 jumper wires
 -   1 k-ohm resistor in order for this to work (brown - black - red - gold)
 
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Instructions**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Instructions**
     
 1.  Log into [io.adafruit.com](io.adafruit.com){:target="_blank"} (if you haven’t created an account yet, you can do that now). Along the left sidebar, click **Feeds** and then **Actions -> Create a New Feed**. Name your feed “analog”
     

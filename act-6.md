@@ -24,7 +24,7 @@ In the Harry Potter series, the Weasley whereabouts clock is a clock that shows 
 -   Scotch tape
 -   Small screwdriver
 -   Scissors
-<br>
+
     **Instructions**
 
     <img src="images/act-6/4-createfeed.png" alt="resistor" style="float:right;width:480px;margin-left:10px;">

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 3 - Reading Light from a Sensor
+title: 2 - Reading Light from a Sensor
 nav_order: 3
 parent: Workshop Activities
 ---

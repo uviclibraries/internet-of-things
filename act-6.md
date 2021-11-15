@@ -7,7 +7,7 @@ parent: Workshop Activities
 
 # Weasley Whereabouts Clock
 
-Adapted from [Adafruit IO: Basics - Servo](https://learn.adafruit.com/adafruit-io-basics-servo/overview){:target="_blank"} by Todd Treece
+_Adapted from [Adafruit IO: Basics - Servo](https://learn.adafruit.com/adafruit-io-basics-servo/overview){:target="_blank"} by Todd Treece_
 
 If you or your group have any questions or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!
 

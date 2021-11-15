@@ -27,13 +27,13 @@ parent: Workshop Activities
 
     **Triggering an Action: Create an Adafruit IO Web Feed**
     
-    <img src="images/act-4/3-serial.png" alt="serial monitor" style="float:right;width:480px;">
+    <img src="images/act-4/3-serial.png" alt="serial monitor" style="float:right;width:480px;margin-left:10px;">
     
 4.  Click the magnifying glass in the top-right corner to open the serial monitor. The serial (named for serial communication) monitor shows you the values that the Feather is reading from the button. Now press the button and watch the output change!
 5.  Exit out of all of your Arduino IDE windows, and shutdown the program
 6.  Go to [http://bit.ly/2JSBlMY](http://bit.ly/2JSBlMY){:target="_blank"}. A download of an Arduino program (called a “sketch”) will automatically start. In your Arduino code editor, go to **File > Open** and select the file. Save it
     
-    <img src="images/act-4/6-view.png" alt="view" style="float:right;width:360px;">
+    <img src="images/act-4/6-view.png" alt="view" style="float:right;width:360px;margin-left:10px;">
     
     -   Edit the code to add your **IO_Username**, **IO_Key**, along with the **wifi username** and **password**. You can find your IO credentials at [https://io.adafruit.com](https://io.adafruit.com){:target="_blank"} by clicking on the **View AIO Key** button
     -   Now compile and upload code by clicking the **Upload** arrow on the top navigation bar

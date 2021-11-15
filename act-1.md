@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 2 - Setup
+title: 1 - Setup
 nav_order: 2
 parent: Workshop Activities
 ---

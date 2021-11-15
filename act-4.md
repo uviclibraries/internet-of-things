@@ -23,7 +23,7 @@ parent: Workshop Activities
 2.  Go to [https://bit.ly/2SOyZjC](https://bit.ly/2SOyZjC){:target="_blank"} and copy/paste the code into Arduino
 3.  Plug your USB cable into your computer.  Go to **Tools -> Port** and select the port your Feather Huzzah is on. Now compile and upload code and watch the light turn on as you press the button!
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Triggering an Action: Create an Adafruit IO Web Feed**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Triggering an Action: Create an Adafruit IO Web Feed CHANGED**<br>
     
     <img src="images/act-4/3-serial.png" alt="serial monitor" style="float:right;width:480px;margin-left:10px;">
     

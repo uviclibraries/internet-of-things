@@ -15,6 +15,7 @@ parent: Workshop Activities
 
     <img src="images/act-4/1-breadboard.png" alt="breadboard" style="float:right;width:360px;">
 
+
     **Hardware Setup**
 
 1.  Connect parts as in the diagram:
@@ -22,6 +23,7 @@ parent: Workshop Activities
     -   The push button should be connected to ground on one side and pin 4 on the adafruit on the other side
 2.  Go to [https://bit.ly/2SOyZjC](https://bit.ly/2SOyZjC){:target="_blank"} and copy/paste the code into Arduino
 3.  Plug your USB cable into your computer.  Go to **Tools -> Port** and select the port your Feather Huzzah is on. Now compile and upload code and watch the light turn on as you press the button!
+
 
     **Triggering an Action: Create an Adafruit IO Web Feed**
     
@@ -37,6 +39,7 @@ parent: Workshop Activities
     -   Now compile and upload code by clicking the **Upload** arrow on the top navigation bar
     -   After the code is loaded, go to in Adafruit IO. Click **Feeds** and open your command feed
     -   Click on the button on your Feather Huzzah, and you’ll see the graph on the Adafruit IO website update. Great job!
+
 
     **Connecting to an IFTTT Applet**
     

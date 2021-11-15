@@ -15,7 +15,7 @@ If you or your group have any questions, or get stuck as you work through this i
 
 In this tutorial, you will learn how to make a simple weather station that detects temperature and humidity
 
-&nbsp;&nbsp;&nbsp;&nbsp;**List of Materials**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**List of Materials**
 
 <img src="images/act-3/1-res.png" alt="resistor" style="float:right;width:90px;">
 
@@ -24,7 +24,7 @@ In this tutorial, you will learn how to make a simple weather station that detec
 -   4 jumper wires - 1 long red and 1 long black wire recommended but not essential
 -   1 10k ohm resistor (brown black orange) - see right
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;**InstructionsCHANGED X22222**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**InstructionsCHANGED X22222**
 
 1.  Log into [io.adafruit.com](io.adafruit.com){:target="_blank"} (if you haven’t created an account yet, you can do that now). Along the left sidebar, click **Feeds** and then **Actions > Create a New Feed**. Let’s create two feeds: one for temperature (name it “temperature”) and one for humidity (name it “humidity”)
 

@@ -31,7 +31,7 @@ Before we start working on the IOT projects, let’s install all the necessary s
     -   Select: **Tools -> CPU Frequency -> 80 MHz**
     -   Select: **Tools -> Upload Speed -> 115200 baud**
 
-    <img src="images/act-1/7-menu.png" alt="alt board manager" style="float:right;width:480px;">
+    <img src="images/act-1/7-menu.png" alt="alt board manager" style="float:right;width:480px;margin-left:10px;">
 
 7.  Connect the Feather Huzzah to your laptop. Go to **Tools -> Port ->** (select the right COM port)
     -   On a Mac, the port is labelled "SLAB_USBtoUART"

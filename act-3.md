@@ -7,7 +7,7 @@ parent: Workshop Activities
 
 # Make Your Own Weather Station
 
-Adapted from [Adafruit IO: Basics - Temperature and Humidity](https://learn.adafruit.com/adafruit-io-basics-temperature-and-humidity){:target="_blank"} by Todd Treece
+_Adapted from [Adafruit IO: Basics - Temperature and Humidity](https://learn.adafruit.com/adafruit-io-basics-temperature-and-humidity){:target="_blank"} by Todd Treece_
 
 <img src="images/act-3/1-weatherstation.png" alt="weather station" style="float:right;width:480px;">
 

@@ -24,6 +24,7 @@ In this tutorial, you will learn how to make a simple weather station that detec
 -   4 jumper wires - 1 long red and 1 long black wire recommended but not essential
 -   1 10k ohm resistor (brown black orange) - see right
 
+
     **Instructions**
 
 1.  Log into [io.adafruit.com](io.adafruit.com){:target="_blank"} (if you haven’t created an account yet, you can do that now). Along the left sidebar, click **Feeds** and then **Actions > Create a New Feed**. Let’s create two feeds: one for temperature (name it “temperature”) and one for humidity (name it “humidity”)

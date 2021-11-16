@@ -52,7 +52,7 @@ parent: Workshop Activities
 
     <br>
     **Connecting to an IFTTT Applet**
-    <img src="images/act-5/5-applet.png" alt="resistor" style="float:right;width:480px;">
+    <img src="images/act-5/5-applet.png" alt="resistor" style="float:right;width:480px;margin-left:10px;margin-top:10px;">
 
 6.  Go to [ifttt.com](https://ifttt.com/){:target="_blank"} and log in or setup an account if you haven’t already. Create a new applet on IFTTT by clicking **My Applets** & then **New Applet** button
 7.  Click on the big blue **+this** button to open service options, and search for “Adafruit”

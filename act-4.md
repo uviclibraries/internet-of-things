@@ -25,8 +25,7 @@ parent: Workshop Activities
 3.  Plug your USB cable into your computer.  Go to **Tools -> Port** and select the port your Feather Huzzah is on. Now compile and upload code and watch the light turn on as you press the button!
 
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Triggering an Action: Create an Adafruit IO Web Feed**
-<br>
-    <img src="images/act-4/3-serial.png" alt="serial monitor" style="float:right;width:480px;margin-left:10px;">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/act-4/3-serial.png" alt="serial monitor" style="float:right;width:480px;margin-left:10px;">
     
 4.  Click the magnifying glass in the top-right corner to open the serial monitor. The serial (named for serial communication) monitor shows you the values that the Feather is reading from the button. Now press the button and watch the output change!
 5.  Exit out of all of your Arduino IDE windows, and shutdown the program

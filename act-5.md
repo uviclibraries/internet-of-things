@@ -50,7 +50,6 @@ parent: Workshop Activities
     -   Click on the button on your Feather Huzzah, and you’ll see the graph on the Adafruit IO website update. Great job!
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Connecting to an IFTTT Applet CHANGED X2**
-
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/act-5/5-applet.png" alt="resistor" style="float:right;width:480px;">
 
 6.  Go to [ifttt.com](https://ifttt.com/){:target="_blank"} and log in or setup an account if you haven’t already. Create a new applet on IFTTT by clicking **My Applets** & then **New Applet** button

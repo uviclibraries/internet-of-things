@@ -40,7 +40,8 @@ parent: Workshop Activities
     -   Now compile and upload code, and wave your hand in front of the PIR motion sensor and watch the LED light up!
     -   **Note:** you may need to adjust the orange sensitivity & delay dials with a phillips screwdriver
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Triggering an Action Online: Create an Adafruit IO Web Feed**
+    <br>
+    **Triggering an Action Online: Create an Adafruit IO Web Feed**
 
 4.  Exit out of all of your Arduino IDE windows, and shutdown the program
 5.  Download & open the following new file in your Arduino code editor, and then save it: [http://bit.ly/2JSBlMY](http://bit.ly/2JSBlMY){:target="_blank"}
@@ -49,8 +50,9 @@ parent: Workshop Activities
     -   After the code is loaded, go into Adafruit IO. Click **Feeds** and open your command feed
     -   Click on the button on your Feather Huzzah, and you’ll see the graph on the Adafruit IO website update. Great job!
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Connecting to an IFTTT Applet**
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/act-5/5-applet.png" alt="resistor" style="float:right;width:480px;">
+    <br>
+    **Connecting to an IFTTT Applet**
+    <img src="images/act-5/5-applet.png" alt="resistor" style="float:right;width:480px;">
 
 6.  Go to [ifttt.com](https://ifttt.com/){:target="_blank"} and log in or setup an account if you haven’t already. Create a new applet on IFTTT by clicking **My Applets** & then **New Applet** button
 7.  Click on the big blue **+this** button to open service options, and search for “Adafruit”

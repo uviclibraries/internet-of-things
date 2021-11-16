@@ -25,7 +25,7 @@ parent: Workshop Activities
 3.  Plug your USB cable into your computer.  Go to **Tools -> Port** and select the port your Feather Huzzah is on. Now compile and upload code and watch the light turn on as you press the button!
 
     <br>
-    **Triggering an Action: Create an Adafruit IO Web Feed CHANGED X4**
+    **Triggering an Action: Create an Adafruit IO Web Feed**
     <img src="images/act-4/3-serial.png" alt="serial monitor" style="float:right;width:480px;margin-left:10px;">
     
 4.  Click the magnifying glass in the top-right corner to open the serial monitor. The serial (named for serial communication) monitor shows you the values that the Feather is reading from the button. Now press the button and watch the output change!
@@ -40,7 +40,7 @@ parent: Workshop Activities
     -   Click on the button on your Feather Huzzah, and you’ll see the graph on the Adafruit IO website update. Great job!
 
     <br>
-    **Connecting to an IFTTT Applet CHANGED**
+    **Connecting to an IFTTT Applet**
     <img src="images/act-4/7-applet.png" alt="applet" style="float:right;width:480px;">
     
 7.  Go to [ifttt.com](https://ifttt.com/){:target="_blank"} and log in or setup an account if you haven’t already. Create a new applet on IFTTT by clicking **My Applets** and then **New Applet**

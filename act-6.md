@@ -27,8 +27,7 @@ In the Harry Potter series, the Weasley whereabouts clock is a clock that shows 
 -   Scissors
 
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Instructions**
-<br>
-    <img src="images/act-6/4-createfeed.png" alt="resistor" style="float:right;width:480px;margin-left:10px;">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/act-6/4-createfeed.png" alt="resistor" style="float:right;width:480px;margin-left:10px;">
 
 1.  Log into io.adafruit.com (if you haven’t created an account yet, you can do that now). Along the left sidebar, click **Feeds** and then **Actions -> Create a New Feed**. Name your feed “Servo”. A description is optional, but you can make one for your own reference
 2.  Go to **Dashboards** on the left sidebar and then click **Actions -> Create a New Dashboard**. Name the new dashboard “Weasley Clock”. Once created, the new dashboard will appear on the page. Click on the link to your new dashboard

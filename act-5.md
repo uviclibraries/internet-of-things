@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 5 - Motion Sensor to Send a Message
+title: 5 - Motion Sensor Message
 nav_order: 6
 parent: Workshop Activities
 ---

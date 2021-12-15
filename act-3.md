@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 3 - Make Your Own Weather Station
+title: 3 - Weather Station
 nav_order: 4
 parent: Workshop Activities
 ---

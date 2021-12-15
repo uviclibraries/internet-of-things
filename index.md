@@ -13,7 +13,12 @@ nav_order: 1
 
 ## Why the Internet of Things 
 
-# BETTER INTRO HERE
+The AdaFruit Feather Huzzah board allows you to quickly make a variety of Internet of Things (IoT) projects with little to no programming or electronics experience. The Feather Huzzah connected to sensors can communicate sensor data to cloud-based services (e.g. weather station temperature and humidity data) or receive data from the cloud or directly from you to turn on connected devices (e.g. Twitter re-tweets could trigger a LED light show in your office). The ESP8266 chip that is at the heart of the AdaFruit board is commonly found in IoT devices like:
+
+- Hobby devices, including weather stations, and holiday light shows
+- Security devices, including surveillance cameras and smart locks
+- Energy devices, including HVACs and thermostats 
+- Medical devices, including wearable health monitors
 
 ## Learning objectives
 

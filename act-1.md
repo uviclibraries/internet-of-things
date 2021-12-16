@@ -11,21 +11,13 @@ Before we start working on the IOT projects, let’s install all the necessary s
 
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Configuring Arduino IDE**
 
-**NOTE:update this. driver allows computer to connect to board. this first step is the most challenging part**
-
-**downloading drivers unclear. where do I get appropriate driver? Where do I move folder to?**
-
-```
-temp instructions
-go to cp210x website, click on downloads tab, select whichever driver matches your computer, it will download zip file.
-go to zip file in folder (might have to go up one folder level)
-right click extract all...
-copy the folder it creates to a location that you'll remember. now, you'll need to install this driver.
-select the silabser .inf (or "setup information") file and right-click -> install
-follow the installer instructions
-```
-
-1.  Go to [goo.gl/eEXD4e](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers){:target="_blank"} and install the appropriate driver for your laptop
+1.  <mark style="background-color:coral;"><b>This first step is the most important one, and omitting it is often the source of errors in this workshop.</b></mark> A computer needs the appropriate driver to be able to talk to the Feather Huzzah through the USB cable. Your computer is unlikely to have this driver by default, so you must manually install the necessary driver:
+    -   Go to [goo.gl/eEXD4e](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers){:target="_blank"} and click on the **Downloads** tab.
+    -   Choose the driver that corresponds to your type of computer (likely "CP210x Universal Windows Driver" for Windows users or "CP210x VCP Mac OSX Driver" for Mac users)
+    -   Clicking on the name of the driver should download a .zip file. Find the .zip file in your "**Downloads**" folder. Right click the .zip file and select "**Extract All...**"
+    -   Now that you've downloaded the driver package, you have to install the driver. Go into the unzipped folder and find the silabser .inf (or "**Setup Information**") file
+    -   Right click on this file, select "**Install**", and follow any intaller instructions
+    -   If you encounter any problems with these steps, please bring them to the instructor's attention :)
 2.  If you haven't already installed the Arduino IDE, go to [http://bit.ly/2LIKN2A](http://bit.ly/2LIKN2A){:target="_blank"}
     -   Download and install the software. **Note:** The software is in a zip file, so it may take a few steps before you are asked for your password during the install process. If you haven’t entered your password, you’re not done yet
     -   **REBOOT your computer now!** This is Very Important to do!

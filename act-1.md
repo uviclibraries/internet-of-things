@@ -24,13 +24,12 @@ Before we start working on the IOT projects, let’s install all the necessary s
     -   In your Arduino IDE, go to the **File** menu **-> Preferences** (on a Mac **Arduino** menu **-> Preferences**). A window will pop up. Under the **Settings** tab, go to **Additional Board Manager URLs** and copy/paste the above link in the field beside it
     -   Click **OK**
 5.  Go to **Tools -> Board -> Board Manager**. In the pop-up window, search for the esp8266 package. Click on the result and an install button will show up in the bottom right corner. Click it
-
-    <img src="images/act-1/5-menu.png" alt="board manager" style="width:720px;">
-
 6.  Double-check you have the right settings under **Tools**
     -   Select: **Tools -> Board -> Adafruit Feather HUZZAH ESP8266**
     -   Select: **Tools -> CPU Frequency -> 80 MHz**
     -   Select: **Tools -> Upload Speed -> 115200 baud**
+
+    <img src="images/act-1/5-menu.png" alt="board manager" style="width:720px;margin-bottom:10px;">
 
     <img src="images/act-1/7-menu.png" alt="alt board manager" style="float:right;width:480px;margin-left:10px;">
 

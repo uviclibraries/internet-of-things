@@ -36,7 +36,7 @@ Before we start working on the IOT projects, let’s install all the necessary s
 7.  Connect the Feather Huzzah to your laptop. Go to **Tools -> Port ->** (select the right COM port)
     -   On a Mac, the port is labelled "SLAB_USBtoUART"
     -   (Note: you may have to reselect port when you unplug and replug the cable into your computer)
-8.  In your web browser, go to [io.adafruit.com](io.adafruit.com){:target="_blank"} and create an account
+8.  In your web browser, go to [io.adafruit.com](https://io.adafruit.com/){:target="_blank"} and create an account
     -   After you’ve logged in, look at the left menu and click on **AIO Key**
     -   Copy the **Active Key** to your clipboard as you’ll need this in step #10 of the setup (your key should be in this format “2cf0197e930f406eb1f9374be6c87cf4”, but different of course)
 9.  In Arduino IDE, go to **File -> Examples -> Adafruit IO Arduino -> adafruitio_00_publish** (this is near the bottom of the menu). A window should pop up with some code in it

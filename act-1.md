@@ -15,7 +15,7 @@ Before we start working on the IOT projects, let’s install all the necessary s
 2.  If you haven't already installed the Arduino IDE, go to [http://bit.ly/2LIKN2A](http://bit.ly/2LIKN2A){:target="_blank"}
     -   Download and install the software. **Note:** The software is in a zip file, so it may take a few steps before you are asked for your password during the install process. If you haven’t entered your password, you’re not done yet
     -   **REBOOT your computer now!** This is Very Important to do!
-3.  In the Arduino IDE you just installed go to **Sketch menu -> Include Library -> Manage Libraries**
+3.  In the Arduino IDE you just installed go to **Sketch -> Include Library -> Manage Libraries**
     -   Now search for "Adafruit IO Arduino" and click **Install**
     -   Search for "Adafruit MQTT" and click **Install**
     -   Search for "ArduinoHttpClient" and click **Install**

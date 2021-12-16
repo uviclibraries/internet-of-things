@@ -11,6 +11,20 @@ Before we start working on the IOT projects, let’s install all the necessary s
 
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Configuring Arduino IDE**
 
+**NOTE:update this. driver allows computer to connect to board. this first step is the most challenging part**
+
+**downloading drivers unclear. where do I get appropriate driver? Where do I move folder to?**
+
+```
+temp instructions
+go to cp210x website, click on downloads tab, select whichever driver matches your computer, it will download zip file.
+go to zip file in folder (might have to go up one folder level)
+right click extract all...
+copy the folder it creates to a location that you'll remember. now, you'll need to install this driver.
+select the silabser .inf (or "setup information") file and right-click -> install
+follow the installer instructions
+```
+
 1.  Go to [goo.gl/eEXD4e](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers){:target="_blank"} and install the appropriate driver for your laptop
 2.  If you haven't already installed the Arduino IDE, go to [http://bit.ly/2LIKN2A](http://bit.ly/2LIKN2A){:target="_blank"}
     -   Download and install the software. **Note:** The software is in a zip file, so it may take a few steps before you are asked for your password during the install process. If you haven’t entered your password, you’re not done yet

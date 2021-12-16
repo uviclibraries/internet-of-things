@@ -31,17 +31,18 @@ In this tutorial, you will learn how to detect light with a sensor and relay tha
     
     -   Analog in this case refers to the type of input the computer receives -- that is, analog input rather than digital input. Analog input can give you a range of values (0‒1024 in Adafruit IO) whereas digital input can only give you 2 values (0 or 1)
     
-2.  Go to Dashboards on the left sidebar and then click **Actions > Create a New Dashboard**. Name the new dashboard “Light Sensor”. Once created, the new dashboard will appear on the page. Click on the name of your new dashboard
+2.  Go to Dashboards in the top menu. Click **view all** and then click **+ New Dashboard**. Name the new dashboard “Light Sensor”. Once created, the new dashboard will appear on the page. Click on the name of your new dashboard
 3.  For now, the dashboard is blank
-    -   Add a block by clicking the **blue plus sign**
+    -   Add a block by clicking the gear dropdown icon in the top right and then clicking **Create New Block**
     -   Select the **gauge**, and then click on the **analog** checkbox, and click on **Next step**
     -   Change the **Max Value** to **1024**, and click on the blue **Create Block** button
 4.  We can also include a line graph to track the changes in light level
-    -   Click the **blue plus button** on the top right navigation, and then select the **Line Chart** option
+    -   Click the gear dropdown icon in the top right, and then click **Create New Block**
+    -   Select the **Line Chart** option
     -   Click on the **analog** checkbox, and click on **Next step**
     -   Under **Show History**, click on the drop down menu and select **8 hours**
     -   Change the **Decimal Places** value to “0”, and click on **Create Block**
-5.  Unplug the Feather from your laptop. Now we’ll wire the circuit. Remember that everything on the same row (A-E or F-J) is connected. Connect the circuit as shown on the next page. (There are also written instructions.)
+5.  Unplug the Feather from your laptop. Now we’ll wire the circuit. Remember that everything on the same row (A-E or F-J) is connected. Connect the circuit as shown on the image below. (There are also written instructions.)
     -   Place the Feather Huzzah on the far left of the bread board as you can see above
     -   The **Red** wire is plugged into **J29** (3V) and **J11**
     -   The **Black** wire is plugged into **J27** (GND) and **J1**

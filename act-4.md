@@ -34,22 +34,28 @@ parent: Workshop Activities
     
     <img src="images/act-4/6-view.png" alt="view" style="float:right;width:360px;margin-left:10px;">
     
-    -   Edit the code to add your **IO_Username**, **IO_Key**, along with the **wifi username** and **password**. You can find your IO credentials at [https://io.adafruit.com](https://io.adafruit.com){:target="_blank"} by clicking on the **View AIO Key** button
+    -   Edit the code to add your **IO_Username**, **IO_Key**, along with the **wifi username** and **password**. You can find your IO credentials at [https://io.adafruit.com](https://io.adafruit.com){:target="_blank"} by clicking on the **IO** tab in the top menu, then clicking the yellow **My Key** option in the top menu
     -   Now compile and upload code by clicking the **Upload** arrow on the top navigation bar
-    -   After the code is loaded, go to in Adafruit IO. Click **Feeds** and open your command feed
+    -   After the code is loaded, go to in Adafruit IO. Click **Feeds** and then click **view all** and open your **command feed????????**
     -   Click on the button on your Feather Huzzah, and you’ll see the graph on the Adafruit IO website update. Great job!
 
     <br>
     **Connecting to an IFTTT Applet**
     <img src="images/act-4/7-applet.png" alt="applet" style="float:right;width:480px;margin-left:10px;margin-top:10px;">
     
-7.  Go to [ifttt.com](https://ifttt.com/){:target="_blank"} and log in or setup an account if you haven’t already. Create a new applet on IFTTT by clicking **My Applets** and then **New Applet**
-8.  Click on the big blue **+this** button to open service options, and search for “Adafruit”
+7.  Go to [ifttt.com](https://ifttt.com/){:target="_blank"} and log in or setup an account if you haven’t already. Create a new applet on IFTTT by clicking **My Applets** and then **Get more**
+8.  Search for “Adafruit”
     -   Select the **Adafruit** service
-    -   Press the **Connect** button. A popup window will appear; press the **AUTHORIZE** button at the bottom
+    -   Press the **Connect** button. A new window will prompt you for authorization. Press the **AUTHORIZE** button at the bottom
+    -   Click **Create** and you should be presented with this screen:
+
+        <img src="" alt="" style="">
+
+    -   Click the **Add** button next to the "If This" text
+    -   Search for Adafruit and select the option that appears
     -   Select **Monitor a feed on Adafruit IO**
-    -   Select **command** from the drop down box, select **equal to** from the Relationship drop down, and in the value field, enter **1**. Now press **Create Trigger**
-9.  Click on big blue **+that** button to select an output service
+    -   Select **command !!!!!!!!!!!!!!!** from the drop down box, select **equal to** from the Relationship drop down, and in the value field, enter **1**. Now press **Create Trigger**
+9.  Click on the **Add** button next to the "Then That" text
 
     <img src="images/act-4/12-review.png" alt="resistor" style="float:right;width:360px;">
 

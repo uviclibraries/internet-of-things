@@ -26,11 +26,11 @@ In this tutorial, you will learn how to make a simple weather station that detec
 
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Instructions**
 
-1.  Log into [io.adafruit.com](io.adafruit.com){:target="_blank"} (if you haven’t created an account yet, you can do that now). Along the top sidebar, click **IO** and then click **Feeds**. Beside the "Feeds" title on the left, click **view all**. Click **+ New Feed**. Let’s create two feeds: one for temperature (name it “temperature”) and one for humidity (name it “humidity”)
+1.  Log into [io.adafruit.com](io.adafruit.com){:target="_blank"} (if you haven’t created an account yet, you can do that now). Along the top menubar, click **IO** and then click **Feeds**. Beside the "Feeds" title on the left, click **view all**. Click **+ New Feed**. Let’s create two feeds: one for temperature (name it “temperature”) and one for humidity (name it “humidity”)
 
     <img src="images/act-3/1-menu.png" alt="menu" style="width:720px;">
 
-2.  Go to Dashboards on the top sidebar, click "view all", and then click **+ New Dashboard**. Name the new dashboard anything you want. Once created, the new dashboard will appear on the page. Click on the name of your new dashboard
+2.  Go to Dashboards on the top menubar, click "view all", and then click **+ New Dashboard**. Name the new dashboard anything you want. Once created, the new dashboard will appear on the page. Click on the name of your new dashboard
 
     <img src="images/act-3/4-blocksettings2.png" alt="block settings" style="float:right;width:480px;margin-left:10px;">
     <img src="images/act-3/4-blocksettings.png" alt="block settings" style="float:right;width:480px;margin-left:10px">

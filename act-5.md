@@ -35,7 +35,7 @@ parent: Workshop Activities
     -   A second **red wire** should connect a hold in line with the inside prong of the **PIR** (labeled **OUT** on the back of the **PIR**), and the other end in a **“+”** hole on the edge of the board
     -   A **wire** (any colour, but yellow above) should connect to the hole next to the **SCL** pin, and the other end should connect a hole in line with the middle prong of the **PIR** (labeled **VCC**)
     -   A **10K ohm resistor** should be connected to a hole in line with the **SCL** pin, and the other end in a **“-”** hole on the edge of the board
-2.  Download & open the following file in your Arduino editor, then save it: [http://bit.ly/2JPqHTO](http://bit.ly/2JPqHTO){:target="_blank"}
+2.  Download & open the following file in your Arduino editor, then save it: [http://bit.ly/2JPqHTO](http://bit.ly/2JPqHTO)
 3.  Plug your USB cable into your computer.  Go to **Tools -> Port** and select the port your Feather Huzzah is on
     -   Now compile and upload code, and wave your hand in front of the PIR motion sensor and watch the LED light up!
     -   **Note:** you may need to adjust the orange sensitivity & delay dials with a phillips screwdriver

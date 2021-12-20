@@ -21,7 +21,8 @@ parent: Workshop Activities
 -   2 red  wires, 2 black wires, 1 other coloured wire
 -   1 10K ohm resistor (brown - black - orange - gold)
 
-<br>**Hardware Setup**
+    <br>
+    **Hardware Setup**
 
 1.  Connect parts as in the diagram:
     
@@ -40,16 +41,18 @@ parent: Workshop Activities
     -   Now compile and upload code, and wave your hand in front of the PIR motion sensor and watch the LED light up!
     -   **Note:** you may need to adjust the orange sensitivity & delay dials with a phillips screwdriver
 
-**Triggering an Action Online: Create an Adafruit IO Web Feed**
+    <br>
+    **Triggering an Action Online: Create an Adafruit IO Web Feed**
 
 4.  Exit out of all of your Arduino IDE windows, and shutdown the program
-5.  Download & open the following new file in your Arduino code editor, and then save it: [http://bit.ly/2JSBlMY](http://bit.ly/2JSBlMY){:target="_blank"}
+5.  Download & open the following new file in your Arduino code editor, and then save it: [http://bit.ly/2JSBlMY](http://bit.ly/2JSBlMY)
     -   Edit the code to add your **IO_Username**, **IO_Key**, along with the **wifi username** and **password**. You can find your Adafruit IO credentials at [https://io.adafruit.com](https://io.adafruit.com){:target="_blank"} by clicking on the **View AIO Key** button
     -   Now compile and upload code by clicking the **Upload** arrow on the top navigation bar
     -   After the code is loaded, go into Adafruit IO. Click **Feeds** and open your command feed
     -   Click on the button on your Feather Huzzah, and you’ll see the graph on the Adafruit IO website update. Great job!
 
-**Connecting to an IFTTT Applet**
+    <br>
+    **Connecting to an IFTTT Applet**
     <img src="images/act-5/5-applet.png" alt="resistor" style="float:right;width:480px;margin-left:10px;margin-top:10px;">
 
 6.  Go to [ifttt.com](https://ifttt.com/){:target="_blank"} and log in or setup an account if you haven’t already. Create a new applet on IFTTT by clicking **My Applets** & then **New Applet** button

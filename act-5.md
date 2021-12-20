@@ -46,23 +46,25 @@ parent: Workshop Activities
 
 4.  Exit out of all of your Arduino IDE windows, and shutdown the program
 5.  Download & open the following new file in your Arduino code editor, and then save it: [http://bit.ly/2JSBlMY](http://bit.ly/2JSBlMY)
-    -   Edit the code to add your **IO_Username**, **IO_Key**, along with the **wifi username** and **password**. You can find your Adafruit IO credentials at [https://io.adafruit.com](https://io.adafruit.com){:target="_blank"} by clicking on the **View AIO Key** button
+    -   Edit the code to add your **IO_Username**, **IO_Key**, along with the **wifi username** and **password**. You can find your Adafruit IO credentials at [https://io.adafruit.com](https://io.adafruit.com){:target="_blank"} by clicking on the yellow **My Key** button in the top menu bar
     -   Now compile and upload code by clicking the **Upload** arrow on the top navigation bar
-    -   After the code is loaded, go into Adafruit IO. Click **Feeds** and open your command feed
+    -   After the code is loaded, go into Adafruit IO. Click **Feeds** and then **view all** and open your command feed
     -   Click on the button on your Feather Huzzah, and you’ll see the graph on the Adafruit IO website update. Great job!
 
     <br>
     **Connecting to an IFTTT Applet**
     <img src="images/act-5/5-applet.png" alt="resistor" style="float:right;width:480px;margin-left:10px;margin-top:10px;">
 
-6.  Go to [ifttt.com](https://ifttt.com/){:target="_blank"} and log in or setup an account if you haven’t already. Create a new applet on IFTTT by clicking **My Applets** & then **New Applet** button
-7.  Click on the big blue **+this** button to open service options, and search for “Adafruit”
+6.  Go to [ifttt.com](https://ifttt.com/){:target="_blank"} and log in or setup an account if you haven’t already. Create a new applet on IFTTT by clicking **My Applets** & then the **Get more** button
+7.  In the search bar (underneath the **Explore** text) search for “Adafruit”
     -   Select the **Adafruit** service
-    -   Press the **Connect** button. A popup window will appear; press the **AUTHORIZE** button at the bottom
+    -   Click the **Create** option
+    -   Click the **Add** button next to the "If This" text
+    -   Search for Adafruit again and select it
     -   Select **Monitor a feed on Adafruit IO**
-    -   Select **command** from the drop down box, select equal to from the Relationship drop down, and in the value field, enter **1**. Now press **Create Trigger**
-8.  Click on big blue **+that** button to select an output service
-    -   Click on email (or another output device to your liking: email, twitter, facebook, etc.)
+    -   Select the **command!!!!!** feed from the "Feed" dropdown box, select **equal to** from the "Relationship" dropdown box, and in the value field enter "1". Now press **Create Trigger**
+8.  Click on the **Add** button next to the "Then That" text to select an output service
+    -   Search for and click on email (or another output device to your liking: email, twitter, facebook, etc.)
     -   You will be asked if you want to connect to the service. Click **Connect**, and then **Accept**
     -   Click through to customize the message if you want to, and click on **Create action**
     -   \*\***a warning on IFTTT states that the applet can take up to an hour to apply. It may not work for workshop attendees right away**

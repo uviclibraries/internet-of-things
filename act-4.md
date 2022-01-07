@@ -36,7 +36,7 @@ parent: Workshop Activities
     
     -   Edit the code to add your **IO_Username**, **IO_Key**, along with the **wifi username** and **password**. You can find your IO credentials at [https://io.adafruit.com](https://io.adafruit.com){:target="_blank"} by clicking on the **IO** tab in the top menu, then clicking the yellow **My Key** option in the top menu
     -   Now compile and upload code by clicking the **Upload** arrow on the top navigation bar
-    -   After the code is loaded, go to in Adafruit IO. Click **Feeds** and then click **view all** and open your **command feed????????**
+    -   After the code is loaded, go to in Adafruit IO. Click **Feeds** and then click **view all** and open your **feed** (that will be created by your IOT device).
     -   Click on the button on your Feather Huzzah, and you’ll see the graph on the Adafruit IO website update. Great job!
 
     <br>

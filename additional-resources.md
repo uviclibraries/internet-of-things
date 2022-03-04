@@ -7,7 +7,7 @@ nav_order: 10
 
 ## Internet of Things Resources
 
-- some cool resources
+- **COMING SOON**
 
 ## Acknowledgements
 

@@ -31,7 +31,7 @@ In this tutorial, you will learn how to detect light with a sensor and relay tha
     
     -   Analog in this case refers to the type of input the computer receives -- that is, analog input rather than digital input. Analog input can give you a range of values (0‒1024 in Adafruit IO) whereas digital input can only give you 2 values (0 or 1)
     
-2.  Go to Dashboards in the top menu. Click **view all** and then click **+ New Dashboard**. Name the new dashboard “Light Sensor”. Once created, the new dashboard will appear on the page. Click on the name of your new dashboard
+2.  Go to **Dashboards** in the top menu. Click **view all** and then click **+ New Dashboard**. Name the new dashboard “Light Sensor”. Once created, the new dashboard will appear on the page. Click on the name of your new dashboard
 3.  For now, the dashboard is blank
     -   Add a block by clicking the gear dropdown icon in the top right and then clicking **Create New Block**
     -   Select the **gauge**, and then click on the **analog** checkbox, and click on **Next step**

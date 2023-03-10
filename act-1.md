@@ -12,7 +12,7 @@ Before we start working on the IOT projects, let’s install all the necessary s
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Configuring Arduino IDE**
 
 1.  <mark style="background-color:coral;"><b>This first step is the most important one, and omitting it, or not completing every step, is often the source of errors in this workshop.</b></mark> A computer needs the appropriate driver to be able to talk to the Feather Huzzah through the USB cable. Your computer is unlikely to have this driver by default, so you must manually install the necessary driver:
-    -   Go to [goo.gl/eEXD4e](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers){:target="_blank"} and click on the **Downloads** tab.
+    -   Go to [https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers){:target="_blank"} and click on the **Downloads** tab.
     -   Choose the driver that corresponds to your type of computer (likely "CP210x Universal Windows Driver" for Windows users or "CP210x VCP Mac OSX Driver" for Mac users)
     -   Clicking on the name of the driver should download a .zip file. Find the .zip file in your "**Downloads**" folder. Right click the .zip file and select "**Extract All...**"
     -   Now that you've downloaded the driver package, you have to install the driver. Go into the unzipped folder and find the silabser .inf (or "**Setup Information**") file
@@ -25,7 +25,7 @@ Before we start working on the IOT projects, let’s install all the necessary s
     -   Now search for "Adafruit IO Arduino" and click **Install**
     -   Search for "Adafruit MQTT" and click **Install**
     -   Search for "ArduinoHttpClient" and click **Install**
-4.  Open the following URL in your web browser: [https://bit.ly/1QeAVwh](https://bit.ly/1QeAVwh){:target="_blank"}
+4.  Open the following URL in your web browser: [https://bit.ly/1QeAVwh](https://arduino.esp8266.com/stable/package_esp8266com_index.json){:target="_blank"}
     -   Copy the full URL of the web page as you’ll need it in the next step (the full URL is: http://arduino.esp8266.com/stable/package_esp8266com_index.json)
     -   In your Arduino IDE, go to the **File** menu **-> Preferences** (on a Mac **Arduino** menu **-> Preferences**). A window will pop up. Under the **Settings** tab, go to **Additional Board Manager URLs** and copy/paste the above link in the field beside it
     -   Click **OK**
@@ -56,8 +56,8 @@ Before we start working on the IOT projects, let’s install all the necessary s
      ```
      #define IO_USERNAME: [Your Adafruit IO username]
      #define IO_KEY: [Your Adafruit IO key]
-     #define WIFI_SSID: “DSC iPhone”
-     #define WIFI_PASS: “dscdsc123”
+     #define WIFI_SSID: “dsc”
+     #define WIFI_PASS: “dsc4life”
      ```
 
 **Please Note:** You will have to do this for every new project sketch you open in Arduino

@@ -47,7 +47,7 @@ Before we start working on the IOT projects, let’s install all the necessary s
     -   On the new screen, look at the top menu and click on **My Key** (yellow key symbol)
     -   Copy the **Active Key** to your clipboard as you’ll need this in step #10 of the setup (your key should be in this format “2cf0197e930f406eb1f9374be6c87cf4”, but different of course)
 9.  In Arduino IDE, go to **File -> Examples -> Adafruit IO Arduino -> adafruitio_00_publish** (this is near the bottom of the menu). A window should pop up with some code in it
-10.  Click on the **config.h** tab. Fill in the first four lines of code with the following required information:
+10.  Click on the **config.h** tab. There are four lines of code highlighted below that need to be filled in:
 
      <img src="images/act-1/10-config.png" alt="config" style="width:720px;">
 
@@ -62,7 +62,7 @@ Before we start working on the IOT projects, let’s install all the necessary s
 
 **Please Note:** You will have to do this for every new project sketch you open in Arduino
 
-**Extra:** Click **Upload** (top-left corner of the window). When it’s done uploading, wait a few seconds and then click on the **Serial Monitor** (magnifying glass in top-right corner). In the bottom right corner, make sure you select **115200 baud**. You should see the Feather printing data to the screen!
+**Extra:** Click **Upload** (top-left corner of the window). When it’s done uploading, wait a few seconds and then click on the **Serial Monitor** (magnifying glass in top-right corner). In the bottom right corner, make sure you select **115200**. You should see the Feather printing data to the screen!
 
 **Extra Extra:** If you want to see the same information through the Adafruit IO interface, go to [learn.adafruit.com](https://learn.adafruit.com/welcome-to-adafruit-io/overview){:target="_blank"} and follow the instructions there.
 

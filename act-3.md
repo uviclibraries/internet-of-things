@@ -26,11 +26,11 @@ In this tutorial, you will learn how to make a simple weather station that detec
 
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Instructions**
 
-1.  Log into [io.adafruit.com](io.adafruit.com){:target="_blank"} (if you haven’t created an account yet, you can do that now). Along the top menubar, click **IO** and then click **Feeds**. Beside the "Feeds" title on the left, click **view all**. Click **+ New Feed**. Let’s create two feeds: one for temperature (name it “temperature”) and one for humidity (name it “humidity”)
+1.  Log into [io.adafruit.com](io.adafruit.com){:target="_blank"} (if you haven’t created an account yet, you can do that now). Along the top menubar, click **IO** and then click **Feeds**. Click **+ New Feed**. Let’s create two feeds: one for temperature (name it “temperature”) and one for humidity (name it “humidity”)
 
     <img src="images/act-3/1-menu.png" alt="menu" style="width:720px;">
 
-2.  Go to Dashboards on the top menubar, click "view all", and then click **+ New Dashboard**. Name the new dashboard anything you want. Once created, the new dashboard will appear on the page. Click on the name of your new dashboard
+2.  Go to Dashboards on the top menubar, then click **+ New Dashboard**. Name the new dashboard anything you want (for example, "environment sensor"). Once created, the new dashboard will appear on the page. Click on the name of your new dashboard
 
     <img src="images/act-3/4-blocksettings2.png" alt="block settings" style="float:right;width:480px;margin-left:10px;">
     <img src="images/act-3/4-blocksettings.png" alt="block settings" style="float:right;width:480px;margin-left:10px">
@@ -48,6 +48,7 @@ In this tutorial, you will learn how to make a simple weather station that detec
 7.  Begin by plugging in your Feather Huzzah board into the far left of the breadboard as shown above
 8.  Plug the heat and humidity sensor facing inwards with the pins in **F1-3**
 9.  Now we’re going to connect the sensor to our Feather. Using a shorter wire (of any colour), insert **one end into J1 and the other into A17 (pin ‘2’ on Feather board)**
+    - _Note: if you are using a knockoff version of the feather your input and output pins may be different!_
 10.  Using the **10k resistor**, connect **one end into H9 and the other into H1**
 11.  Using 1 long red wire, insert **one end of the wire into J29 (corresponding to the 3V pin on the Feather)** and **the other end into J9 (connecting to a leg of the resistor)**
 12.  Using 1 short red wire, insert **one end of the wire into I9** and **the other end into J2**
@@ -55,7 +56,7 @@ In this tutorial, you will learn how to make a simple weather station that detec
 14.  Open the **Arduino software**. Make sure you have the correct libraries installed (if not, ask an instructor). Go to **File > Examples > Adafruit IO Arduino > adafruitio_15_temp_humidity**. A new sketch should pop up. A sketch is a program or batch of instructions for our Feather HUZZAH
 15.  We need the DHT sensor library. Go to **Sketch > Include Library > Manage Libraries**
     -   Type “DHT sensor” into the search box. Select **DHT sensor library** and then click **Install** (bottom right corner)
-    -   Type “adafruit unified sensor” into the search box. Select **Adafruit Unified Sensor** and then click **Install**
+    -   Type “adafruit unified sensor” into the search box. Select **Adafruit Unified Sensor** (you may need to scroll down), and then click **Install**
 16.  We’re almost there but we need to make a few modifications to the sketch. This sketch displays the temperature in fahrenheit but we want it to be in celsius instead. Scroll down until you find the following lines:
 
      ```

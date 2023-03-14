@@ -29,8 +29,8 @@ In the Harry Potter series, the Weasley whereabouts clock is a clock that shows 
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Instructions**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/act-6/4-createfeed.png" alt="resistor" style="float:right;width:480px;margin-left:10px;">
 
-1.  Log into io.adafruit.com (if you haven’t created an account yet, you can do that now). Along the top menubar, click **IO**. Click **Feeds** and then **view all**. Click **+ New Feed** and name your feed “Servo”. A description is optional, but you can make one for your own reference. Click **Create**.
-2.  Go to **Dashboards** on the top menubar and click **view all**. Click **+ New Dashboard** and name the new dashboard “Weasley Clock”. Once created, the new dashboard will appear on the page. Click on the name of your new dashboard
+1.  Log into io.adafruit.com (if you haven’t created an account yet, you can do that now). Along the top menubar, click **IO**. Click **Feeds**. Click **+ New Feed** and name your feed “Servo”. A description is optional, but you can make one for your own reference. Click **Create**.
+2.  Go to **Dashboards** on the top menubar. Click **+ New Dashboard** and name the new dashboard “Weasley Clock”. Once created, the new dashboard will appear on the page. Click on the name of your new dashboard
 3.  For now, the dashboard is blank. Add a block by clicking the gear dropdown in the top right and selecting **+ Create New Block**. Select the **Slider** (see picture on right). When the pop-up prompts you to select a feed, pick the **Servo** feed you just created
 
     <img src="images/act-6/2-newblock.png" alt="resistor" style="float:right;width:360px;margin-left:10px;margin-bottom:10px;">
@@ -54,7 +54,7 @@ In the Harry Potter series, the Weasley whereabouts clock is a clock that shows 
     -   **Black -> GND**
     -   **White -> Pin 2**
 7.  Open the Arduino software. Go to **File -> Examples -> Adafruit IO Arduino -> adafruitio_16_servo**.  A new sketch should pop up. A sketch is a program or batch of instructions for our Feather HUZZAH
-8.  Click on the **config.h** tab.  Edit the code to add your **IO_Username**, **IO_Key**, along with the **wifi username** and **password**. You can find your Adafruit IO credentials at https://io.adafruit.com by clicking on the yellow **My Key** button in the top menu
+8.  Click on the **config.h** tab.  Edit the code to add your **IO_Username**, **IO_Key**, along with the **wifi username** and **password**. You can find your Adafruit IO credentials at [https://io.adafruit.com](https://io.adafruit.com) by clicking on the yellow **My Key** button in the top menu
 9.  Connect Feather Huzzah to your laptop and make sure the right Board and Port settings are selected. Click **upload** (the right arrow icon in the top left corner of the window)
 
     <img src="images/act-6/10-servo.jpg" alt="resistor" style="float:right;width:180px;margin-left:10px;">

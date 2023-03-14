@@ -24,7 +24,7 @@ parent: Workshop Activities
     <br>
     **Hardware Setup**
 
-1.  Connect parts as in the diagram:
+1.  Connect parts as in the diagram (Note: double check the pins on your motion sensor, as they may differ from the one used in the example here):
     
     <img src="images/act-5/1-breadboard.png" alt="resistor" style="width:720px;">
     
@@ -36,20 +36,22 @@ parent: Workshop Activities
     -   A second **red wire** should connect a hold in line with the inside prong of the **PIR** (labeled **OUT** on the back of the **PIR**), and the other end in a **“+”** hole on the edge of the board
     -   A **wire** (any colour, but yellow above) should connect to the hole next to the **SCL** pin, and the other end should connect a hole in line with the middle prong of the **PIR** (labeled **VCC**)
     -   A **10K ohm resistor** should be connected to a hole in line with the **SCL** pin, and the other end in a **“-”** hole on the edge of the board
-2.  Download & open the following file in your Arduino editor, then save it: [http://bit.ly/2JPqHTO](http://bit.ly/2JPqHTO)
+2.  Download & open the following file in your Arduino editor, then save it: [http://bit.ly/2JPqHTO](http://bit.ly/2JPqHTO){:target="_blank"} 
 3.  Plug your USB cable into your computer.  Go to **Tools -> Port** and select the port your Feather Huzzah is on
     -   Now compile and upload code, and wave your hand in front of the PIR motion sensor and watch the LED light up!
     -   **Note:** you may need to adjust the orange sensitivity & delay dials with a phillips screwdriver
 
     <br>
+
     **Triggering an Action Online: Create an Adafruit IO Web Feed**
 
 4.  Exit out of all of your Arduino IDE windows, and shutdown the program
-5.  Download & open the following new file in your Arduino code editor, and then save it: [http://bit.ly/2JSBlMY](http://bit.ly/2JSBlMY)
+5.  Download & open the following new file in your Arduino code editor, and then save it: [http://bit.ly/2JSBlMY](http://bit.ly/2JSBlMY){:target="_blank"} 
     -   Edit the code to add your **IO_Username**, **IO_Key**, along with the **wifi username** and **password**. You can find your Adafruit IO credentials at [https://io.adafruit.com](https://io.adafruit.com){:target="_blank"} by clicking on the yellow **My Key** button in the top menu bar
+    -   Edit the code so that the input receive is from the motion sensor.  Hint: You may need to change the input pin in the default code.
     -   Now compile and upload code by clicking the **Upload** arrow on the top navigation bar
     -   After the code is loaded, go into Adafruit IO. Click **Feeds** and then **view all** and open your command feed
-    -   Click on the button on your Feather Huzzah, and you’ll see the graph on the Adafruit IO website update. Great job!
+    -   Activate the motion sensor, and you’ll see the graph on the Adafruit IO website update. Great job!
 
     <br>
     **Connecting to an IFTTT Applet**
@@ -62,12 +64,12 @@ parent: Workshop Activities
     -   Click the **Add** button next to the "If This" text
     -   Search for Adafruit again and select it
     -   Select **Monitor a feed on Adafruit IO**
-    -   Select the **command!!!!!** feed from the "Feed" dropdown box, select **equal to** from the "Relationship" dropdown box, and in the value field enter "1". Now press **Create Trigger**
+    -   Select the **command** feed from the "Feed" dropdown box, select **equal to** from the "Relationship" dropdown box, and in the value field enter "1". Now press **Create Trigger**
 8.  Click on the **Add** button next to the "Then That" text to select an output service
     -   Search for and click on email (or another output device to your liking: email, twitter, facebook, etc.)
     -   You will be asked if you want to connect to the service. Click **Connect**, and then **Accept**
     -   Click through to customize the message if you want to, and click on **Create action**
     -   \*\***a warning on IFTTT states that the applet can take up to an hour to apply. It may not work for workshop attendees right away**
-9.  Click Finish. Now every time you press the button, you should receive a text, email, message, or call (depending on how you’ve configured it!)
+9.  Click Finish. Now every time you activate the motion sensor, you should receive a text, email, message, or call (depending on how you’ve configured it!)
 
 [NEXT STEP: Weasley Whereabout Clock](act-6.html){: .btn .btn-blue }

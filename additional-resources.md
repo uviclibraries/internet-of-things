@@ -7,11 +7,13 @@ nav_order: 10
 
 ## Internet of Things Resources
 
-- **COMING SOON**
+- [Adafruit IO learning resources](https://learn.adafruit.com/category/adafruit-io){:target="_blank"} 
+- [IFTTT Help Center](https://help.ifttt.com/hc/en-us){:target="_blank"} 
+- [Instructables: Project ideas](https://www.instructables.com/Internet-of-Things-projects/){:target="_blank"} 
 
 ## Acknowledgements
 
 - [UBC Library Research Commons](https://github.com/ubc-library-rc/), for their assistance with the Jekyll template for GitHub Pages.
-- **MORE ACKNOWLEDGEMENTS HERE**
+
 
 [NEXT STEP: Workshop Evaluation Survey](workshop-survey.html){: .btn .btn-blue }

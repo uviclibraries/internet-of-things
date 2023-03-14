@@ -22,39 +22,39 @@ parent: Workshop Activities
     -   The long leg of the LED should be placed with the long leg in the same row as 13 on the adafruit board and the short leg grounded
     -   The push button should be connected to ground on one side and pin 4 on the adafruit on the other side
 2.  Create a new sketch and copy/paste [the code](https://bit.ly/2SOyZjC){:target="_blank"} into Arduino:
-```
-#define LED_PIN 13
-#define BUTTON_PIN 4
+    ```
+    #define LED_PIN 13
+    #define BUTTON_PIN 4
 
-// button state
-int current = 0;
-int last = 0;
+    // button state
+    int current = 0;
+    int last = 0;
 
-void setup() {
-  pinMode(LED_PIN, OUTPUT);
-  pinMode(BUTTON_PIN, INPUT_PULLUP);
-  Serial.begin(115200);
-}
+    void setup() {
+        pinMode(LED_PIN, OUTPUT);
+        pinMode(BUTTON_PIN, INPUT_PULLUP);
+        Serial.begin(115200);
+    }
 
-void loop() {
-  // grab the current state of the button.
-  // we have to flip the logic because we are
-  // using INPUT_PULLUP.
-  if(digitalRead(BUTTON_PIN) == LOW)
-    current = 1;
-  else
-    current = 0;
+    void loop() {
+        // grab the current state of the button.
+        // we have to flip the logic because we are
+        // using INPUT_PULLUP.
+        if(digitalRead(BUTTON_PIN) == LOW)
+            current = 1;
+        else
+            current = 0;
 
-  // return if the value hasn't changed
-  if(current == last)
-    return;
+    // return if the value hasn't changed
+        if(current == last)
+        return;
 
-  Serial.println(current);
-  digitalWrite(LED_PIN, current);
+    Serial.println(current);
+    digitalWrite(LED_PIN, current);
   
-  last = current;
-}
-  ```
+    last = current;
+    }
+    ```
 
 3.  Plug your USB cable into your computer.  Go to **Tools -> Port** and select the COM port your Feather Huzzah is on. Now compile and upload code and watch the light turn on as you press the button!
 
@@ -63,8 +63,10 @@ void loop() {
     <img src="images/act-4/3-serial.png" alt="serial monitor" style="float:right;width:480px;margin-left:10px;">
     
 4.  Click the magnifying glass in the top-right corner to open the serial monitor. The serial (named for serial communication) monitor shows you the values that the Feather is reading from the button. Now press the button and watch the output change!
-5.  Exit out of all of your Arduino IDE windows, and shutdown the program
-6.  Go to [http://bit.ly/2JSBlMY](http://bit.ly/2JSBlMY){:target="_blank"}. A download of an Arduino program (called a “sketch”) will automatically start. In your Arduino code editor, go to **File > Open** and select the file. Save it
+
+5.  Exit out of all of your Arduino IDE windows, and shutdown the program.
+
+6.  Go to [http://bit.ly/2JSBlMY](http://bit.ly/2JSBlMY){:target="_blank"}. A download of an Arduino program (called a “sketch”) will automatically start. In your Arduino code editor, go to **File > Open** and select the file. Save it.
     
     <img src="images/act-4/6-view.png" alt="view" style="float:right;width:360px;margin-left:10px;">
     
@@ -81,7 +83,7 @@ void loop() {
 8.  Search for “Adafruit”
     -   Select the **Adafruit** service
     -   Press the **Connect** button. A new window will prompt you for authorization. Press the **AUTHORIZE** button at the bottom
-    -   Click **Create** and you should be presented with this screen:
+    -   Click **continue**.
 
         <img src="" alt="" style="">
 

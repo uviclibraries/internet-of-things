@@ -29,5 +29,9 @@ At the end of this workshop, you will be able to:
 3. Use web services like Adafruit IO and IFTTT to quickly web enable Feather Huzzah projects
 4. Use a Feather Huzzah to send information to web services to perform an action on the web
 5. Use web services to send information to a Feather Huzzah to perform a local action
+
+## Things You Need for the Workshop
+
+Bing laptop to workshop. Let us know if you don't have one to bring...
  
 [NEXT STEP: Pre-Workshop Activities](pre-workshop.html){: .btn .btn-blue }

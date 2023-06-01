@@ -82,14 +82,15 @@ parent: Workshop Activities
 7.  Go to [ifttt.com](https://ifttt.com/){:target="_blank"} and log in or setup an account if you haven’t already. Create a new applet on IFTTT by clicking **My Applets** and then **create your own**
 8.  Search for “Adafruit”
     -   Select the **Adafruit** service
-    -   Press the **Connect** button. A new window will prompt you for authorization. Press the **AUTHORIZE** button at the bottom
-    -   Click **continue**.
+    -   Click the **Monitor a feed on Adafruit IO** button
+    -   Click the **Connect** button. A new window will prompt you for authorization. Press the **AUTHORIZE** button at the bottom
+    -   Click **continue**
 
         <img src="" alt="" style="">
 
     -   Click the **Add** button next to the "If This" text
     -   Search for Adafruit and select the option that appears
-    -   Select **Monitor a feed on Adafruit IO**
+    -   Select **Monitor a feed on Adafruit IO**. Close and re-open the IFTTT tab if the command feed does not appear.
     -   Select **command** from the drop down box, select **equal to** from the Relationship drop down, and in the value field, enter **1**. Now press **Create Trigger**
 9.  Click on the **Add** button next to the "Then That" text
 

@@ -21,6 +21,8 @@ parent: Workshop Activities
 -   2 red  wires, 2 black wires, 1 other coloured wire
 -   1 10K ohm resistor (brown - black - orange - gold)
 
+**Please Note:** The DSC also has smaller PIR motion detectors than the one pictured here. These need to be connected without the 10K ohm resistor tying the OUT pin to ground.
+
     <br>
     **Hardware Setup**
 

@@ -3,7 +3,7 @@ layout: default
 title: Introduction 
 nav_order: 1
 ---
-<img src="images/logo.png" style="float:right;width:180px;" alt="image description">
+<img src="images/logo.png" style="float:right;width:180px;" alt="IoT logo">
 
 # Introduction to the Internet of Things with Adafruit Feather Huzzah
 

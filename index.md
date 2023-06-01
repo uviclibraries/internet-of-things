@@ -31,7 +31,6 @@ At the end of this workshop, you will be able to:
 5. Use web services to send information to a Feather Huzzah to perform a local action
 
 ## Things You Need for the Workshop
-
-Bing laptop to workshop. Let us know if you don't have one to bring...
+Your own laptop. This workshop involves programming a microcontroller that requires a USB driver to be installed with administrator access, which you will not have on a laptop borrowed from the library.
  
 [NEXT STEP: Pre-Workshop Activities](pre-workshop.html){: .btn .btn-blue }

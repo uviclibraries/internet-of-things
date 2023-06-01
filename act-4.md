@@ -66,7 +66,7 @@ parent: Workshop Activities
 
 5.  Exit out of all of your Arduino IDE windows, and shutdown the program.
 
-6.  Go to [http://bit.ly/2JSBlMY](http://bit.ly/2JSBlMY){:target="_blank"}. A download of an Arduino program (called a “sketch”) will automatically start. In your Arduino code editor, go to **File > Open** and select the file. Save it.
+6.  Go to [this link](https://bit.ly/2JSB1MY){:target="_blank"} and download of an Arduino program (called a “sketch”) will automatically start. In your Arduino code editor, go to **File > Open** and select the file. Save it.
     
     <img src="images/act-4/6-view.png" alt="view" style="float:right;width:360px;margin-left:10px;">
     

@@ -21,10 +21,9 @@ parent: Workshop Activities
 -   2 red  wires, 2 black wires, 1 other coloured wire
 -   1 10K ohm resistor (brown - black - orange - gold)
 
-    **Please Note:** The DSC also has smaller PIR motion detectors than the one pictured here. These need to be connected without the 10K ohm resistor tying the OUT pin to ground.
-
-    <br>
-    **Hardware Setup**
+**Please Note:** The DSC also has smaller PIR motion detectors than the one pictured here. These need to be connected without the 10K ohm resistor tying the OUT pin to ground.
+    
+<br>**Hardware Setup**
 
 1.  Connect parts as in the diagram (Note: double check the pins on your motion sensor, as they may differ from the one used in the example here):
     
@@ -43,9 +42,7 @@ parent: Workshop Activities
     -   Now compile and upload code, and wave your hand in front of the PIR motion sensor and watch the LED light up!
     -   **Note:** you may need to adjust the orange sensitivity & delay dials with a phillips screwdriver
 
-    <br>
-
-    **Triggering an Action Online: Create an Adafruit IO Web Feed**
+<br>**Triggering an Action Online: Create an Adafruit IO Web Feed**
 
 4.  Exit out of all of your Arduino IDE windows, and shutdown the program
 5.  Download & open the following new file in your Arduino code editor, and then save it: [http://bit.ly/2JSBlMY](http://bit.ly/2JSBlMY){:target="_blank"} 
@@ -55,9 +52,8 @@ parent: Workshop Activities
     -   After the code is loaded, go into Adafruit IO. Click **Feeds** and then **view all** and open your command feed
     -   Activate the motion sensor, and you’ll see the graph on the Adafruit IO website update. Great job!
 
-    <br>
-    **Connecting to an IFTTT Applet**
-    <img src="images/act-5/5-applet.png" alt="resistor" style="float:right;width:480px;margin-left:10px;margin-top:10px;">
+<br>**Connecting to an IFTTT Applet**<br>
+<img src="images/act-5/5-applet.png" alt="resistor" style="float:right;width:480px;margin-left:10px;margin-top:10px;">
 
 6.  Go to [ifttt.com](https://ifttt.com/){:target="_blank"} and log in or setup an account if you haven’t already. Create a new applet on IFTTT by clicking **My Applets** & then the **Get more** button
 7.  In the search bar (underneath the **Explore** text) search for “Adafruit”
@@ -71,7 +67,7 @@ parent: Workshop Activities
     -   Search for and click on email (or another output device to your liking: email, twitter, facebook, etc.)
     -   You will be asked if you want to connect to the service. Click **Connect**, and then **Accept**
     -   Click through to customize the message if you want to, and click on **Create action**
-    -   \*\***a warning on IFTTT states that the applet can take up to an hour to apply. It may not work for workshop attendees right away**
+    -   **A warning on IFTTT states that the applet can take up to an hour to apply. It may not work for workshop attendees right away**
 9.  Click Finish. Now every time you activate the motion sensor, you should receive a text, email, message, or call (depending on how you’ve configured it!)
 
 [NEXT STEP: Weasley Whereabout Clock](act-6.html){: .btn .btn-blue }

@@ -42,11 +42,20 @@ In this tutorial, you will learn how to detect light with a sensor and relay tha
     -   Change the **Decimal Places** value to “0”, and click on **Create Block**
 5.  Unplug the Feather from your laptop. Now we’ll wire the circuit. Remember that everything on the same row (A-E or F-J) is connected. Connect the circuit as shown on the image below. (There are also written instructions.)  _Note: if you are using a knockoff version of the feather, input and output pins may be in different locations._
     -   Place the Feather Huzzah on the far left of the bread board as you can see above
+    -   Connect one end of the photoresistor to 3V
+    -   Connect one end of the 1k ohm resistor to GND (ground)
+    -   The other ends of the photoresistor and 1k ohm resistor are connected together and to ADC (analog to digital converter)
+    
+    ```
+    -   Place the Feather Huzzah on the far left of the bread board as you can see above
     -   The **Red** wire is plugged into **J29** (3V) and **J11**
     -   The **Black** wire is plugged into **J27** (GND) and **J1**
     -   The **Yellow** wire is plugged into **J26** (ADC) and **J6**
     -   The **1K ohm resistor** is plugged into **I6** and **I1**
     -   Lastly the **light sensor** is plugged into **H11** and **H6**
+    ```
+
+    <img src="images/act-2/5-diagram.png" alt="" style="width:720px;">
 
     <img src="images/act-2/5-breadboard.png" alt="" style="width:720px;">
     

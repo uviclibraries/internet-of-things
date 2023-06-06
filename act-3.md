@@ -43,7 +43,9 @@ In this tutorial, you will learn how to make a simple weather station that detec
 5.  Create a Line Chart to witness a trend. Select 8 hours and 0 decimal places in the settings window and click Update Block
 6.  Unplug the Feather from your laptop. Now we’ll wire the circuit. Remember that everything on the same row (A-E or F-J) is connected. Connect the circuit as shown below. (There are also written instructions.) \*\*\*the breadboards supplied with the feather huzzah - I find it useful to state which pin on the breadboard corresponds to which pin on the feather - though this is personal preference. Feel free to reject these changes!
 
-    <img src="images/act-3/6-breadboard.png" alt="breadboard" style="width:720px;">
+<img src="images/act-3/6-diagram.png" alt="breadboard" style="width:720px;">
+
+<img src="images/act-3/6-breadboard.png" alt="breadboard" style="width:720px;">
 
 7.  Begin by plugging in your Feather Huzzah board into the far left of the breadboard as shown above
 8.  Plug the heat and humidity sensor facing inwards with the pins in **F1-3**

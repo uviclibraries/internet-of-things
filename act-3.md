@@ -17,16 +17,16 @@ In this tutorial, you will learn how to make a simple weather station that detec
 
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**List of Materials**
 
-<img src="images/act-3/1-res.png" alt="resistor" style="float:right;width:90px;">
-
 -   Adafruit Feather HUZZAH board, breadboard, USB cable
 -   1 AM2302 DHT22 Temperature and Humidity Sensor
 -   4 jumper wires - 1 long red and 1 long black wire recommended but not essential
--   1 10k ohm resistor (brown black orange) - see right
+-   1 10k ohm resistor (brown black orange)
+
+    <img src="images/act-3/1-res.png" alt="resistor" style="float:right;width:90px;">
 
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Instructions**
 
-1.  Log into [io.adafruit.com](io.adafruit.com){:target="_blank"} (if you haven’t created an account yet, you can do that now). Along the top menubar, click **IO** and then click **Feeds**. Click **+ New Feed**. Let’s create two feeds: one for temperature (name it “temperature”) and one for humidity (name it “humidity”)
+1.  Log into [io.adafruit.com](io.adafruit.com) (if you haven’t created an account yet, you can do that now). Along the top menubar, click **IO** and then click **Feeds**. Click **+ New Feed**. Let’s create two feeds: one for temperature (name it “temperature”) and one for humidity (name it “humidity”)
 
     <img src="images/act-3/1-menu.png" alt="menu" style="width:720px;">
 
@@ -88,4 +88,4 @@ In this tutorial, you will learn how to make a simple weather station that detec
 
 Congratulations, you’re done!
 
-[NEXT STEP: Press a Button to Send a Message](act-4.html){: .btn .btn-blue }
+<br>[NEXT STEP: Press a Button to Send a Message](act-4.html)

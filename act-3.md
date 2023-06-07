@@ -46,9 +46,9 @@ In this tutorial, you will learn how to make a simple weather station that detec
     -   Place the Feather Huzzah on the far left of the bread board as you can see above
     -   Place the temperature and humidity sensor somewhere to the right of the Feather
     -   Connect the GND pins of the Feather and the sensor together
-    -   Connect the 3V pin of the Feather to the VCC pin of the sensor
-    -   Connect IO pin 2 of the Feather to the DAT pin of the sensor
-    -   Tie the DAT pin of the ensor to 3V using the 10k ohm resistor as a "pull-up" resistor
+    -   Connect the VCC pin of the sensor to the 3V pin of the Feather
+    -   Connect the DAT pin of the sensor to IO pin 2 of the Feather
+    -   Tie the DAT pin of the sensor to 3V using the 10k ohm resistor as a "pull-up" resistor
 
 <img src="images/act-3/6-diagram.png" alt="breadboard" style="width:720px;">
 

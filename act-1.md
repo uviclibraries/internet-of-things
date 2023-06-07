@@ -66,4 +66,4 @@ Before we start working on the IOT projects, let’s install all the necessary s
 
 **Extra Extra:** If you want to see the same information through the Adafruit IO interface, go to <a href="https://learn.adafruit.com/welcome-to-adafruit-io/overview)" target="_blank">https://io.adafruit.com/</a> and follow the instructions there.
 
-[NEXT STEP: Reading Light from a Sensor](act-2.html)
+<br>[NEXT STEP: Reading Light from a Sensor](act-2.html)

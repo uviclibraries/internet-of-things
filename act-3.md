@@ -41,12 +41,20 @@ In this tutorial, you will learn how to make a simple weather station that detec
     -   A **line graph** for comparing the two over the last 24 hours
 4.  Click the gear dropdown in the top right and then click **+ Create New Block** to add each block to your dashboard. Add the temperature and humidity gauges, selecting the appropriate feed to read your data from. Fill out the settings as pictured below
 5.  Create a Line Chart to witness a trend. Select 8 hours and 0 decimal places in the settings window and click Update Block
-6.  Unplug the Feather from your laptop. Now we’ll wire the circuit. Remember that everything on the same row (A-E or F-J) is connected. Connect the circuit as shown below. (There are also written instructions.) \*\*\*the breadboards supplied with the feather huzzah - I find it useful to state which pin on the breadboard corresponds to which pin on the feather - though this is personal preference. Feel free to reject these changes!
+<!---6.  Unplug the Feather from your laptop. Now we’ll wire the circuit. Remember that everything on the same row (A-E or F-J) is connected. Connect the circuit as shown below. (There are also written instructions.) I find it useful to state which pin on the breadboard corresponds to which pin on the feather - though this is personal preference. Feel free to reject these changes!-->
+6.  Unplug the Feather from your laptop. Now we’ll wire the circuit. Remember that everything on the same row (A-E or F-J) is connected.
+    -   Place the Feather Huzzah on the far left of the bread board as you can see above
+    -   Place the temperature and humidity sensor somewhere to the right of the Feather
+    -   Connect the GND pins of the Feather and the sensor together
+    -   Connect the 3V pin of the Feather to the VCC pin of the sensor
+    -   Connect IO pin 2 of the Feather to the DAT pin of the sensor
+    -   Tie the DAT pin of the ensor to 3V using the 10k ohm resistor as a "pull-up" resistor
 
 <img src="images/act-3/6-diagram.png" alt="breadboard" style="width:720px;">
 
 <img src="images/act-3/6-breadboard.png" alt="breadboard" style="width:720px;">
 
+<!---
 7.  Begin by plugging in your Feather Huzzah board into the far left of the breadboard as shown above
 8.  Plug the heat and humidity sensor facing inwards with the pins in **F1-3**
 9.  Now we’re going to connect the sensor to our Feather. Using a shorter wire (of any colour), insert **one end into J1 and the other into A17 (pin ‘2’ on Feather board)**
@@ -55,11 +63,13 @@ In this tutorial, you will learn how to make a simple weather station that detec
 11.  Using 1 long red wire, insert **one end of the wire into J29 (corresponding to the 3V pin on the Feather)** and **the other end into J9 (connecting to a leg of the resistor)**
 12.  Using 1 short red wire, insert **one end of the wire into I9** and **the other end into J2**
 13.  Using the long black wire, insert one end into **J27 (connected to GND)** and **the other end into J3**
-14.  Open the **Arduino software**. Make sure you have the correct libraries installed (if not, ask an instructor). Go to **File > Examples > Adafruit IO Arduino > adafruitio_15_temp_humidity**. A new sketch should pop up. A sketch is a program or batch of instructions for our Feather HUZZAH
-15.  We need the DHT sensor library. Go to **Sketch > Include Library > Manage Libraries**
+-->
+
+7.  Open the **Arduino software**. Make sure you have the correct libraries installed (if not, ask an instructor). Go to **File > Examples > Adafruit IO Arduino > adafruitio_15_temp_humidity**. A new sketch should pop up. A sketch is a program or batch of instructions for our Feather HUZZAH
+8.  We need the DHT sensor library. Go to **Sketch > Include Library > Manage Libraries**
     -   Type “DHT sensor” into the search box. Select **DHT sensor library** and then click **Install** (bottom right corner)
     -   Type “adafruit unified sensor” into the search box. Select **Adafruit Unified Sensor** (you may need to scroll down), and then click **Install**
-16.  We’re almost there but we need to make a few modifications to the sketch. This sketch displays the temperature in fahrenheit but we want it to be in celsius instead. Scroll down until you find the following lines:
+9.  We’re almost there but we need to make a few modifications to the sketch. This sketch displays the temperature in fahrenheit but we want it to be in celsius instead. Scroll down until you find the following lines:
 
      ```
      // save fahrenheit (or celsius) to Adafruit IO
@@ -68,9 +78,9 @@ In this tutorial, you will learn how to make a simple weather station that detec
      
      Delete fahrenheit in `save(fahrenheit);` being sure to leave the brackets intact. Replace it with `celsius`, using all lowercase letters
 
-17.  Next, we need to be able to connect to WiFi and our Adafruit account. Click on the config.h tab. In the Arduino program on your laptop, fill in the 4 lines of info as we did at the start of the workshop
-18.  Connect Feather to your laptop and make sure the right Board and Port settings are selected. Click upload (the right arrow icon in the top left corner of the window). Our gauges should now display the temperature and humidity!
-19.  Let’s add a couple of line charts for both temperature and humidity:
+10.  Next, we need to be able to connect to WiFi and our Adafruit account. Click on the config.h tab. In the Arduino program on your laptop, fill in the 4 lines of info as we did at the start of the workshop
+11.  Connect Feather to your laptop and make sure the right Board and Port settings are selected. Click upload (the right arrow icon in the top left corner of the window). Our gauges should now display the temperature and humidity!
+12.  Let’s add a couple of line charts for both temperature and humidity:
      -   Click on the gear dropdown again, click **+ Create New Block**, and select the **Line Chart** option. Select **temperature**, and play around with the options to see what works best. For example, I liked to set the Y-axis Minimum to 0 and the Y-axis Maximum to 33
      -   Click on the gear dropdown again, click **+ Create New Block**, and select the **Line Chart** option. Select **humidity**, and play around with the options to see what works best. For example, I liked to set the Y-axis Minimum to 0 and the Y-axis Maximum to 100
 

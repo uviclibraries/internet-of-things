@@ -65,13 +65,14 @@ parent: Workshop Activities
 
     <br>
     **Triggering an Action: Create an Adafruit IO Web Feed**
-    <img src="images/act-4/3-serial.png" alt="serial monitor" style="float:right;width:480px;margin-left:10px;">
     
 4.  Click the magnifying glass in the top-right corner to open the serial monitor. The serial (named for serial communication) monitor shows you the values that the Feather is reading from the button. Now press the button and watch the output change!
 
+    <img src="images/act-4/3-serial.png" alt="serial monitor" style="float:right;width:480px;margin-left:10px;">
+
 5.  Exit out of all of your Arduino IDE windows, and shutdown the program.
 
-6.  Go to [this link](https://bit.ly/2JSBlMY) and a download of an Arduino program (called a “sketch”) will automatically start. In your Arduino code editor, go to **File > Open** and select the file. Save it.
+6.  Go to <a href="https://bit.ly/2JSBlMY" target="_blank">https://bit.ly/2JSBlMY</a> and a download of an Arduino program (called a “sketch”) will automatically start. In your Arduino code editor, go to **File > Open** and select the file. Save it.
     
     <img src="images/act-4/6-view.png" alt="view" style="float:right;width:360px;margin-left:10px;">
     
@@ -82,17 +83,16 @@ parent: Workshop Activities
 
     <br>
     **Connecting to an IFTTT Applet**
-    <img src="images/act-4/7-applet.png" alt="applet" style="float:right;width:480px;margin-left:10px;margin-top:10px;">
     
-7.  Go to [ifttt.com](https://ifttt.com/){:target="_blank"} and log in or setup an account if you haven’t already. Create a new applet on IFTTT by clicking **My Applets** and then **create your own**
+7.  Go to <a href="https://ifttt.com/" target="_blank">https://ifttt.com/</a> and log in or setup an account if you haven’t already. Create a new applet on IFTTT by clicking **My Applets** and then **create your own**
+
+    <img src="images/act-4/7-applet.png" alt="applet" style="float:right;width:480px;margin-left:10px;margin-top:10px;">
+
 8.  Search for “Adafruit”
     -   Select the **Adafruit** service
     -   Click the **Monitor a feed on Adafruit IO** button
     -   Click the **Connect** button. A new window will prompt you for authorization. Press the **AUTHORIZE** button at the bottom
     -   Click **continue**
-
-        <img src="" alt="" style="">
-
     -   Click the **Add** button next to the "If This" text
     -   Search for Adafruit and select the option that appears
     -   Select **Monitor a feed on Adafruit IO**. Close and re-open the IFTTT tab if the command feed does not appear.
@@ -115,4 +115,4 @@ parent: Workshop Activities
 
 Great job!
 
-[NEXT STEP: Motion Sensor to Send a Message](act-5.html){: .btn .btn-blue }
+[NEXT STEP: Motion Sensor to Send a Message](act-5.html)

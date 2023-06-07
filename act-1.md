@@ -12,20 +12,20 @@ Before we start working on the IOT projects, let’s install all the necessary s
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Configuring Arduino IDE**
 
 1.  <mark style="background-color:coral;"><b>This first step is the most important one, and omitting it, or not completing every step, is often the source of errors in this workshop.</b></mark> A computer needs the appropriate driver to be able to talk to the Feather Huzzah through the USB cable. Your computer is unlikely to have this driver by default, so you must manually install the necessary driver:
-    -   Go to [https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers){:target="_blank"} and click on the **Downloads** tab.
+    -   Go to <a href="https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers" target="_blank">https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers</a> and click on the **Downloads** tab.
     -   Choose the driver that corresponds to your type of computer (likely "CP210x Universal Windows Driver" for Windows users or "CP210x VCP Mac OSX Driver" for Mac users)
     -   Clicking on the name of the driver should download a .zip file. Find the .zip file in your "**Downloads**" folder. Right click the .zip file and select "**Extract All...**"
     -   Now that you've downloaded the driver package, you have to install the driver. Go into the unzipped folder and find the silabser .inf (or "**Setup Information**") file
     -   Right click on this file, select "**Install**", and follow any intaller instructions
     -   If you encounter any problems with these steps, please bring them to the instructor's attention :)
-2.  If you haven't already installed the Arduino IDE, go to [http://bit.ly/2LIKN2A](http://bit.ly/2LIKN2A){:target="_blank"}
+2.  If you haven't already installed the Arduino IDE, go to <a href="http://bit.ly/2LIKN2A" target="_blank">http://bit.ly/2LIKN2A</a>
     -   Download and install the software. **Note:** The software is in a zip file, so it may take a few steps before you are asked for your password during the install process. If you haven’t entered your password, you’re not done yet
     -   **REBOOT your computer now!** This is Very Important to do!
 3.  In the Arduino IDE you just installed go to **Sketch -> Include Library -> Manage Libraries**
     -   Now search for "Adafruit IO Arduino" and click **Install**.  If you are prompted to add dependencies say yes.
     -   Search for "Adafruit MQTT" and click **Install**
     -   Search for "ArduinoHttpClient" and click **Install**
-4.  Open the following URL in your web browser: [https://bit.ly/1QeAVwh](https://arduino.esp8266.com/stable/package_esp8266com_index.json){:target="_blank"}
+4.  Open the following URL in your web browser: <a href="https://arduino.esp8266.com/stable/package_esp8266com_index.json" target="_blank">https://arduino.esp8266.com/stable/package_esp8266com_index.json</a>
     -   Copy the full URL of the web page as you’ll need it in the next step (the full URL is: http://arduino.esp8266.com/stable/package_esp8266com_index.json)
     -   In your Arduino IDE, go to the **File** menu **-> Preferences** (on a Mac **Arduino** menu **-> Preferences**). A window will pop up. Under the **Settings** tab, click the box next to **Additional Board Manager URLs** and copy/paste the above link in the field beside it
     -   Click **OK**
@@ -42,7 +42,7 @@ Before we start working on the IOT projects, let’s install all the necessary s
 7.  Connect the Feather Huzzah to your laptop. Go to **Tools -> Port ->** (select the right COM port)
     -   On a Mac, the port is labelled "SLAB_USBtoUART"
     -   (Note: you may have to reselect port when you unplug and replug the cable into your computer)
-8.  In your web browser, go to [io.adafruit.com](https://io.adafruit.com/){:target="_blank"} and create an account
+8.  In your web browser, go to <a href="https://io.adafruit.com/" target="_blank">https://io.adafruit.com/</a> and create an account
     -   After you’ve logged in, look at the top menu and click on **IO**
     -   On the new screen, look at the top menu and click on **My Key** (yellow key symbol)
     -   Copy the **Active Key** to your clipboard as you’ll need this in step #10 of the setup (your key should be in this format “2cf0197e930f406eb1f9374be6c87cf4”, but different of course)
@@ -59,11 +59,11 @@ Before we start working on the IOT projects, let’s install all the necessary s
      #define WIFI_SSID: “dsc”
      #define WIFI_PASS: “dsc4life”
      ```
-
+     
 **Please Note:** You will have to do this for every new project sketch you open in Arduino
 
 **Extra:** Click **Upload** (top-left corner of the window). When it’s done uploading, wait a few seconds and then click on the **Serial Monitor** (magnifying glass in top-right corner). In the bottom right corner, make sure you select **115200**. You should see the Feather printing data to the screen!
 
-**Extra Extra:** If you want to see the same information through the Adafruit IO interface, go to [learn.adafruit.com](https://learn.adafruit.com/welcome-to-adafruit-io/overview){:target="_blank"} and follow the instructions there.
+**Extra Extra:** If you want to see the same information through the Adafruit IO interface, go to <a href="https://learn.adafruit.com/welcome-to-adafruit-io/overview)" target="_blank">https://io.adafruit.com/</a> and follow the instructions there.
 
-[NEXT STEP: Reading Light from a Sensor](act-2.html){: .btn .btn-blue }
+[NEXT STEP: Reading Light from a Sensor](act-2.html)

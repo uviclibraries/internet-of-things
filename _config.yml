@@ -38,5 +38,8 @@ last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https:/
 ga_tracking: G-J1P4V8MFWB
 ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
 
+# Markdown Parser
+markdown: kramdown
+
 plugins:
   - jekyll-seo-tag

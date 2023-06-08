@@ -11,14 +11,12 @@ _Adapted from [Adafruit IO: Basics - AnalogIn](https://learn.adafruit.com/adafru
 
 In this tutorial, you will learn how to detect light with a sensor and relay that info to Adafruit IO. If you or your group have any questions, or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!
 
-<img src="images/act-2/1-photores.png" alt="photoresistor" style="float:right;width:180px;">
-
 <br>**List of Materials**
 
 -   Adafruit Feather HUZZAH board, breadboard, USB cable
--   Photoresistor or light sensor (see photo) <img src="images/act-2/1-res.png" alt="resistor" style="float:right;width:180px;">
+-   Photoresistor or light sensor (see photo) <br><img src="images/act-2/1-photores.png" alt="photoresistor" style="float:center;width:180px;">
 -   3 jumper wires
--   1 k-ohm resistor in order for this to work (brown - black - red - gold)
+-   1 k-ohm resistor in order for this to work (brown - black - red - gold) <br><img src="images/act-2/1-res.png" alt="resistor" style="float:center;width:180px;">
 
 <br>**Instructions**
     

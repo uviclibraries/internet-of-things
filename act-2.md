@@ -7,7 +7,7 @@ parent: Workshop Activities
 
 # Reading Light from a Sensor
 
-_Adapted from <a href="https://learn.adafruit.com/adafruit-io-basics-analog-input" target="_blank">Adafruit IO: Basics - AnalogIn</a> by Todd Treece_
+_Adapted from [Adafruit IO: Basics - AnalogIn](https://learn.adafruit.com/adafruit-io-basics-analog-input){:target="_blank"} by Todd Treece_
 
 In this tutorial, you will learn how to detect light with a sensor and relay that info to Adafruit IO. If you or your group have any questions, or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!
 
@@ -22,7 +22,7 @@ In this tutorial, you will learn how to detect light with a sensor and relay tha
 
 <br>**Instructions**
     
-1.  Log into <a href="https://io.adafruit.com/" target="_blank">io.adafruit.com</a> (if you haven’t created an account yet, you can do that now). If you're not already at your dashboards, click **IO** in the top menu to get to your dashboards. From here, click **Feeds** in the top menu. Click **+ New Feed** and name your feed “analog”
+1.  Log into [https://io.adafruit.com/](https://io.adafruit.com){:target="_blank"} (if you haven’t created an account yet, you can do that now). If you're not already at your dashboards, click **IO** in the top menu to get to your dashboards. From here, click **Feeds** in the top menu. Click **+ New Feed** and name your feed “analog”
     
     <img src="images/act-2/4-menu.png" alt="menu" style="width:720px;">
     

@@ -63,8 +63,7 @@ parent: Workshop Activities
 
 3.  Plug your USB cable into your computer.  Go to **Tools -> Port** and select the COM port your Feather Huzzah is on. Now compile and upload code and watch the light turn on as you press the button!
 
-    <br>
-    **Triggering an Action: Create an Adafruit IO Web Feed**
+    <br>**Triggering an Action: Create an Adafruit IO Web Feed**
     
 4.  Click the magnifying glass in the top-right corner to open the serial monitor. The serial (named for serial communication) monitor shows you the values that the Feather is reading from the button. Now press the button and watch the output change!
 
@@ -72,19 +71,17 @@ parent: Workshop Activities
 
 5.  Exit out of all of your Arduino IDE windows, and shutdown the program.
 
-6.  Go to <a href="https://bit.ly/2JSBlMY" target="_blank">https://bit.ly/2JSBlMY</a> and a download of an Arduino program (called a “sketch”) will automatically start. In your Arduino code editor, go to **File > Open** and select the file. Save it.
-    
-    <img src="images/act-4/6-view.png" alt="view" style="float:right;width:360px;margin-left:10px;">
-    
+6.  Go to [https://bit.ly/2JSBlMY](https://bit.ly/2JSBlMY){:target="_blank"} and a download of an Arduino program (called a “sketch”) will automatically start. In your Arduino code editor, go to **File > Open** and select the file. Save it.
     -   Edit the code to add your **IO_Username**, **IO_Key**, along with the **wifi username** and **password**. You can find your IO credentials at [https://io.adafruit.com](https://io.adafruit.com){:target="_blank"} by clicking on the **IO** tab in the top menu, then clicking the yellow **My Key** option in the top menu
     -   Now compile and upload code by clicking the **Upload** arrow on the top navigation bar
     -   After the code is loaded, go to in Adafruit IO. Click **Feeds** then open your **feed** (that will be created by your IOT device).
     -   Click on the button on your Feather Huzzah, and you’ll see the graph on the Adafruit IO website update. Great job!
 
-    <br>
-    **Connecting to an IFTTT Applet**
+    <img src="images/act-4/6-view.png" alt="view" style="float:right;width:360px;margin-left:10px;">
+
+    <br>**Connecting to an IFTTT Applet**
     
-7.  Go to <a href="https://ifttt.com/" target="_blank">https://ifttt.com/</a> and log in or setup an account if you haven’t already. Create a new applet on IFTTT by clicking **My Applets** and then **create your own**
+7.  Go to [https://ifttt.com/](https://ifttt.com/){:target="_blank"} and log in or setup an account if you haven’t already. Create a new applet on IFTTT by clicking **My Applets** and then **create your own**
 
     <img src="images/act-4/7-applet.png" alt="applet" style="float:right;width:480px;margin-left:10px;margin-top:10px;">
 
@@ -107,12 +104,15 @@ parent: Workshop Activities
      -   Email/Gmail
      -   Twitter/facebook - make a status update
      -   The list goes on! Browse around until you find something to your liking
+
 11.  You will be asked if you want to connect to the service. Click **Connect**, and then **Accept**
+
 12.  Click through to customize the message, and click on **continue**
+
 13.  Click **Finish**. Now every time you press the button, you should receive a text, email, message, or call (depending on how you’ve configured it!)
 
 <img src="images/act-4/12-send.png" alt="resistor" style="width:360px;">
 
 Great job!
 
-[NEXT STEP: Motion Sensor to Send a Message](act-5.html)
+<br>[NEXT STEP: Motion Sensor to Send a Message](act-5.html)

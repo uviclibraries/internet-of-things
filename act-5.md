@@ -10,16 +10,11 @@ parent: Workshop Activities
 <br>**Materials Needed**
 
 -   1 Adafruit Feather Huzzah (a type of Arduino board)
--   1 PIR motion detector
-
-    <img src="images/act-5/1-motion.png" alt="resistor" style="float:right;width:180px;">
-
+-   1 PIR motion detector <br><img src="images/act-5/1-motion.png" alt="resistor" style="float:center;width:180px;">
 -   1 breadboard
 -   1 LED light
 -   2 red  wires, 2 black wires, 1 other coloured wire
--   1 10K ohm resistor (brown - black - orange - gold)
-
-    <img src="images/act-2/1-res.png" alt="resistor" style="float:right;width:180px;">
+-   1 10K ohm resistor (brown - black - orange - gold) <br><img src="images/act-2/1-res.png" alt="resistor" style="float:center;width:180px;">
 
 **Please Note:** The DSC also has smaller PIR motion detectors than the one pictured here. These need to be connected without the 10K ohm resistor tying the OUT pin to ground.
     
@@ -49,7 +44,7 @@ parent: Workshop Activities
     
     <img src="images/act-5/1-breadboard.png" alt="resistor" style="width:720px;">
     
-2.  Download & open the following file in your Arduino editor, then save it: <a href="https://bit.ly/2JPqHTO" target="_blank">https://bit.ly/2JPqHTO</a>
+2.  Download & open the following file in your Arduino editor, then save it: [https://bit.ly/2JPqHTO](https://bit.ly/2JPqHTO){:target="_blank"}
 3.  Plug your USB cable into your computer.  Go to **Tools -> Port** and select the port your Feather Huzzah is on
     -   Now compile and upload code, and wave your hand in front of the PIR motion sensor and watch the LED light up!
     -   **Note:** you may need to adjust the orange sensitivity & delay dials with a phillips screwdriver
@@ -57,8 +52,8 @@ parent: Workshop Activities
 <br>**Triggering an Action Online: Create an Adafruit IO Web Feed**
 
 4.  Exit out of all of your Arduino IDE windows, and shutdown the program
-5.  Download & open the following new file in your Arduino code editor, and then save it: <a href="https://bit.ly/2JSBlMY" target="_blank">https://bit.ly/2JSBlMY</a>
-    -   Edit the code to add your **IO_Username**, **IO_Key**, along with the **wifi username** and **password**. You can find your Adafruit IO credentials at <a href="https://io.adafruit.com" target="_blank">https://io.adafruit.com</a> by clicking on the yellow **My Key** button in the top menu bar
+5.  Download & open the following new file in your Arduino code editor, and then save it: [https://bit.ly/2JSBlMY](https://bit.ly/2JSBlMY){:target="_blank"}
+    -   Edit the code to add your **IO_Username**, **IO_Key**, along with the **wifi username** and **password**. You can find your Adafruit IO credentials at [https://io.adafruit.com](https://io.adafruit.com){:target="_blank"} by clicking on the yellow **My Key** button in the top menu bar
     -   Edit the code so that the input receive is from the motion sensor.  Hint: You may need to change the input pin in the default code.
     -   Now compile and upload code by clicking the **Upload** arrow on the top navigation bar
     -   After the code is loaded, go into Adafruit IO. Click **Feeds** and then **view all** and open your command feed
@@ -67,7 +62,7 @@ parent: Workshop Activities
 <br>**Connecting to an IFTTT Applet**<br>
 <img src="images/act-5/5-applet.png" alt="resistor" style="float:right;width:480px;margin-left:10px;margin-top:10px;">
 
-6.  Go to <a href="https://ifttt.com/" target="_blank">https://ifttt.com/</a> and log in or setup an account if you haven’t already. Create a new applet on IFTTT by clicking **My Applets** & then the **Get more** button
+6.  Go to [https://ifttt.com/](https://ifttt.com/){:target="_blank"} and log in or setup an account if you haven’t already. Create a new applet on IFTTT by clicking **My Applets** & then the **Get more** button
 7.  In the search bar (underneath the **Explore** text) search for “Adafruit”
     -   Select the **Adafruit** service
     -   Click the **Create** option

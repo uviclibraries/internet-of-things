@@ -19,8 +19,7 @@ parent: Workshop Activities
 1.  Connect parts as in the diagram:
     -   The long leg of the LED should be placed with the long leg in the same row as 13 on the adafruit board and the short leg grounded
     -   The push button should be connected to ground on one side and pin 4 on the adafruit on the other side
-
-    <img src="images/act-4/1-diagram.png" alt="breadboard" style="float:right;width:720px;">
+    <img src="images/act-4/1-diagram.png" alt="breadboard" style="float:center;width:720px;">
 
 2.  Create a new sketch and copy/paste [the code](https://bit.ly/2SOyZjC) into Arduino:
     ```

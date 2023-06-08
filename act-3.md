@@ -26,7 +26,7 @@ In this tutorial, you will learn how to make a simple weather station that detec
 
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Instructions**
 
-1.  Log into [io.adafruit.com](io.adafruit.com) (if you haven’t created an account yet, you can do that now). Along the top menubar, click **IO** and then click **Feeds**. Click **+ New Feed**. Let’s create two feeds: one for temperature (name it “temperature”) and one for humidity (name it “humidity”)
+1.  Log into [https://io.adafruit.com/](https://io.adafruit.com/){:target="_blank"} (if you haven’t created an account yet, you can do that now). Along the top menubar, click **IO** and then click **Feeds**. Click **+ New Feed**. Let’s create two feeds: one for temperature (name it “temperature”) and one for humidity (name it “humidity”)
 
     <img src="images/act-3/1-menu.png" alt="menu" style="width:720px;">
 

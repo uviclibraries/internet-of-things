@@ -7,7 +7,7 @@ parent: Workshop Activities
 
 # Weasley Whereabouts Clock
 
-_Adapted from [Adafruit IO: Basics - Servo](https://learn.adafruit.com/adafruit-io-basics-servo/overview) by Todd Treece_
+_Adapted from [Adafruit IO: Basics - Servo](https://learn.adafruit.com/adafruit-io-basics-servo/overview){:target="_blank"} by Todd Treece_
 
 If you or your group have any questions or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!
 
@@ -54,7 +54,7 @@ In the Harry Potter series, the Weasley whereabouts clock is a clock that shows 
     -   **Black -> GND**
     -   **White -> Pin 2**
 7.  Open the Arduino software. Go to **File -> Examples -> Adafruit IO Arduino -> adafruitio_16_servo**.  A new sketch should pop up. A sketch is a program or batch of instructions for our Feather HUZZAH
-8.  Click on the **config.h** tab.  Edit the code to add your **IO_Username**, **IO_Key**, along with the **wifi username** and **password**. You can find your Adafruit IO credentials at [https://io.adafruit.com](https://io.adafruit.com) by clicking on the yellow **My Key** button in the top menu
+8.  Click on the **config.h** tab.  Edit the code to add your **IO_Username**, **IO_Key**, along with the **wifi username** and **password**. You can find your Adafruit IO credentials at [https://io.adafruit.com](https://io.adafruit.com){:target="_blank"} by clicking on the yellow **My Key** button in the top menu
 9.  Connect Feather Huzzah to your laptop and make sure the right Board and Port settings are selected. Click **upload** (the right arrow icon in the top left corner of the window)
 
     <img src="images/act-6/10-servo.jpg" alt="resistor" style="float:right;width:180px;margin-left:10px;">
@@ -72,4 +72,4 @@ In the Harry Potter series, the Weasley whereabouts clock is a clock that shows 
 
 <img src="images/act-6/15-HAGRID.png" alt="resistor" style="width:720px;">
 
-[NEXT STEP: Earn a Workshop Badge](informal-credentials.html)
+<br>[NEXT STEP: Earn a Workshop Badge](informal-credentials.html)

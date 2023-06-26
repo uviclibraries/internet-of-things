@@ -69,10 +69,10 @@ In this tutorial, you will learn how to detect light with a sensor and relay tha
      #define WIFI_PASS: “dsc4life”
      ```
 
+<img src="images/act-2/5-speed.png" alt="speed" style="float:right;width:360px;margin-left:10px;">
+
 8.  Connect Feather to your laptop and **make sure the right Board and Port settings are selected**. Click the **upload** arrow (the right arrow icon in the top left corner of the window).
 
 9.  Cover the light sensor with a finger and watch the value of the gauge decrease. Then slowly lift your finger further and further away and watch it change!
-
-<img src="images/act-2/5-speed.png" alt="speed" style="float:right;width:360px;margin-left:10px;">
 
 <br>[NEXT STEP: Make Your Own Weather Station](act-3.html)

@@ -51,11 +51,11 @@ Before we start working on the IOT projects, let’s install all the necessary s
 
 11.  Replace the highlighted sections with the following, taking care to **keep the quotation marks**:
 
-    <pre><code>#define IO_USERNAME: [Your Adafruit IO username]
-    #define IO_KEY: [Your Adafruit IO key]
-    #define WIFI_SSID: “dsc”
-    #define WIFI_PASS: “dsc4life”</code></pre>
-     
+<pre><code>#define IO_USERNAME: [Your Adafruit IO username]
+#define IO_KEY: [Your Adafruit IO key]
+#define WIFI_SSID: “dsc”
+#define WIFI_PASS: “dsc4life”</code></pre>
+
 **Please Note:** You will have to do this for every new project sketch you open in Arduino
 
 **Extra:** Click **Upload** (top-left corner of the window). When it’s done uploading, wait a few seconds and then click on the **Serial Monitor** (magnifying glass in top-right corner). In the bottom right corner, make sure you select **115200**. You should see the Feather printing data to the screen!

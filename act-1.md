@@ -12,13 +12,12 @@ Before we start working on the IOT projects, let’s install all the necessary s
 **Configuring Arduino IDE**
 
 1.  <mark style="background-color:coral;"><b>This first step is the most important one, and omitting it, or not completing every step, is often the source of errors in this workshop.</b></mark> A computer needs the appropriate driver to be able to talk to the Feather Huzzah through the USB cable. Your computer does not have this driver by default, so you must manually install the necessary driver:
-    -   Go to the Silicon [Labs website and download the appropriate driver for your comptuer's operating system](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads){:target="_blank"}.
-    -   Clicking on the name of the driver should download a .zip file. Find the .zip file in your "**Downloads**" folder. Right click the .zip file and select "**Extract All...**"
-    -   Now that you've downloaded the driver package, you have to install the driver. Go into the unzipped folder and find the silabser .inf (or "**Setup Information**") file
-    -   Right click on this file, select "**Install**", and follow any intaller instructions
+    -   Go to the Silicon Labs website and [download the appropriate driver for your computer's operating system](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads){:target="_blank"}.
+    -   Clicking on the name of the driver should download a .zip file. Find the .zip file in your "**Downloads**" folder. Right-click the .zip file and select "**Extract All...**"
+    -   Now that you've downloaded the driver package, you have to install the driver. Go into the unzipped folder and find the installer .inf (or "**Setup Information**") file
+    -   Right-click on this file, select "**Install**", and follow any installer instructions
     -   If you encounter any problems with these steps, please bring them to the instructor's attention :)
-2.  If you haven't already installed the Arduino IDE, go to ["http://bit.ly/2LIKN2A](http://bit.ly/2LIKN2A){:target="_blank"}
-    -   Download and install the software. **Note:** The software is in a zip file, so it may take a few steps before you are asked for your password during the install process. If you haven’t entered your password, you’re not done yet
+2.  If you haven't already download the [Arduino IDE](http://bit.ly/2LIKN2A){:target="_blank"} & install it. *Note:** The software is in a zip file, so it may take a few steps before you are asked for your password during the install process. If you haven’t entered your password, you’re not done yet
     -   **REBOOT your computer now!** This is Very Important to do!
 3.  In the Arduino IDE you just installed go to **Sketch -> Include Library -> Manage Libraries**
     -   Now search for "Adafruit IO Arduino" and click **Install**.  If you are prompted to add dependencies say yes.

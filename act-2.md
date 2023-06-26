@@ -14,9 +14,9 @@ In this tutorial, you will learn how to detect light with a sensor and relay tha
 <br>**List of Materials**
 
 -   Adafruit Feather HUZZAH board, breadboard, USB cable
--   Photoresistor or light sensor (see photo) <br><img src="images/act-2/1-photores.png" alt="photoresistor" style="float:center;width:180px;">
+-   Photoresistor or light sensor (see photo) <br><img src="images/act-2/1-photores.png" alt="photoresistor" style="float:right;width:120px;">
 -   3 jumper wires
--   1 k-ohm resistor in order for this to work (brown - black - red - gold) <br><img src="images/act-2/1-res.png" alt="resistor" style="float:center;width:180px;">
+-   1 k-ohm resistor in order for this to work (brown - black - red - gold) <br><img src="images/act-2/1-res.png" alt="resistor" style="float:right;width:120px;">
 
 <br>**Instructions**
     
@@ -58,13 +58,11 @@ In this tutorial, you will learn how to detect light with a sensor and relay tha
     <img src="images/act-2/5-diagram.png" alt="" style="width:720px;">
 
     <img src="images/act-2/5-breadboard.png" alt="" style="width:720px;">
-    
-    <img src="images/act-2/5-speed.png" alt="speed" style="float:right;width:360px;margin-left:10px;">
 
 6.  Open the Arduino software. Make sure you have the correct libraries installed (if not, ask an instructor). Go to **File -> Examples -> Adafruit IO Arduino -> adafruitio_08_analogin**. A new sketch should pop up. A sketch is a program or batch of instructions for our Feather HUZZAH.
 
 7.  Click on the **config.h** tab near the top. Fill in the 4 lines of info as we did at the start of the workshop:
-    ```
+    ```{r}
      #define IO_USERNAME: [Your Adafruit IO username]
      #define IO_KEY: [Your Adafruit IO key]
      #define WIFI_SSID: “dsc”
@@ -74,5 +72,7 @@ In this tutorial, you will learn how to detect light with a sensor and relay tha
 8.  Connect Feather to your laptop and **make sure the right Board and Port settings are selected**. Click the **upload** arrow (the right arrow icon in the top left corner of the window).
 
 9.  Cover the light sensor with a finger and watch the value of the gauge decrease. Then slowly lift your finger further and further away and watch it change!
+
+<img src="images/act-2/5-speed.png" alt="speed" style="float:right;width:360px;margin-left:10px;">
 
 <br>[NEXT STEP: Make Your Own Weather Station](act-3.html)

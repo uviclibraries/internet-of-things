@@ -10,11 +10,11 @@ parent: Workshop Activities
 <br>**Materials Needed**
 
 -   1 Adafruit Feather Huzzah (a type of Arduino board)
--   1 PIR motion detector <br><img src="images/act-5/1-motion.png" alt="resistor" style="float:center;width:180px;">
+-   1 PIR motion detector <br><img src="images/act-5/1-motion.png" alt="resistor" style="float:center;width:120px;">
 -   1 breadboard
 -   1 LED light
 -   2 red  wires, 2 black wires, 1 other coloured wire
--   1 10K ohm resistor (brown - black - orange - gold) <br><img src="images/act-5/1-res.png" alt="resistor" style="float:center;width:180px;">
+-   1 10K ohm resistor (brown - black - orange - gold) <br><img src="images/act-5/1-res.png" alt="resistor" style="float:center;width:120px;">
 
 **Please Note:** The DSC also has smaller PIR motion detectors than the one pictured here. These need to be connected without the 10K ohm resistor tying the OUT pin to ground.
     

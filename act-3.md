@@ -88,4 +88,4 @@ In this tutorial, you will learn how to make a simple weather station that detec
 
 Congratulations, you’re done!
 
-<br>[NEXT STEP: Press a Button to Send a Message](act-4.html)
+<br>[NEXT STEP: Press a Button to Send a Message](act-4.html){: .btn .btn-blue }

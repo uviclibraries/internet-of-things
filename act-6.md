@@ -72,4 +72,4 @@ In the Harry Potter series, the Weasley whereabouts clock is a clock that shows 
 
 <img src="images/act-6/15-HAGRID.png" alt="resistor" style="width:720px;">
 
-<br>[NEXT STEP: Earn a Workshop Badge](informal-credentials.html)
+<br>[NEXT STEP: Earn a Workshop Badge](informal-credentials.html){: .btn .btn-blue }

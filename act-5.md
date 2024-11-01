@@ -77,4 +77,4 @@ parent: Workshop Activities
     -   **A warning on IFTTT states that the applet can take up to an hour to apply. It may not work for workshop attendees right away**
 9.  Click Finish. Now every time you activate the motion sensor, you should receive a text, email, message, or call (depending on how you’ve configured it!)
 
-<br>[NEXT STEP: Weasley Whereabout Clock](act-6.html)
+<br>[NEXT STEP: Weasley Whereabout Clock](act-6.html){: .btn .btn-blue }

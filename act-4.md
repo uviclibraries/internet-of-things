@@ -21,7 +21,7 @@ parent: Workshop Activities
     -   The push button should be connected to ground on one side and pin 4 on the adafruit on the other side
     <img src="images/act-4/1-diagram.png" alt="breadboard" style="float:center;width:720px;">
 
-2.  Create a new sketch and copy/paste [the code](https://bit.ly/2SOyZjC) into Arduino:
+2.  Create a new sketch and copy/paste [the code](https://bit.ly/2SOyZjC){:target="_blank"} into Arduino:
     ```
     #define LED_PIN 13
     #define BUTTON_PIN 4
@@ -110,4 +110,4 @@ parent: Workshop Activities
 
 Great job!
 
-<br>[NEXT STEP: Motion Sensor to Send a Message](act-5.html)
+<br>[NEXT STEP: Motion Sensor to Send a Message](act-5.html){: .btn .btn-blue }

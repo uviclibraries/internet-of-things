@@ -49,7 +49,7 @@ Before we start working on the IOT projects, let’s install all the necessary s
 
      <img src="images/act-1/10-config.png" alt="config" style="width:720px;">
 
-11.  Replace the highlighted sections with the following, taking care to **keep the quotation marks**:
+11.  Replace the highlighted sections with the following, taking care to **keep the quotation marks**, and make sure that the  WIFI with WIFI_SSID: "dsc" is on using other device like your phone to verify:
 
 <pre><code>#define IO_USERNAME: "Your Adafruit IO username"
 #define IO_KEY: "Your Adafruit IO key"

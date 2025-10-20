@@ -22,7 +22,7 @@ In this tutorial, you will learn how to detect light with a sensor and relay tha
     
 1.  Log into [https://io.adafruit.com](https://io.adafruit.com){:target="_blank"} (if you haven’t created an account yet, you can do that now). If you're not already at your dashboards, click **IO** in the top menu to get to your dashboards. From here, click **Feeds** in the top menu. Click **+ New Feed** and name your feed “analog”
     
-    <img src="images/act-2-4-menu_update.png" alt="menu" style="width:720px;">
+    <img src="images/act-2/4-menu_update.png" alt="menu" style="width:720px;">
     
     -   Analog in this case refers to the type of input the computer receives -- that is, analog input rather than digital input. Analog input can give you a range of values (0‒1024 in Adafruit IO) whereas digital input can only give you 2 values (0 or 1)
     

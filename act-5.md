@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 5 - Motion Sensor Message
+title: 5 - Motion Sensor Message - BROKEN
 nav_order: 6
 parent: Workshop Activities
 ---

@@ -49,17 +49,19 @@ Before we start working on the IOT projects, let’s install all the necessary s
 
      <img src="images/act-1/10-config.png" alt="config" style="width:720px;">
 
-11.  Replace the highlighted sections with the following, taking care to **keep the quotation marks**:
+11.  Replace the highlighted sections with the following, taking care to **keep the quotation marks**, and make sure that the  WIFI with WIFI_SSID: "dsc" is on using other device like your phone to verify:
 
-<pre><code>#define IO_USERNAME: [Your Adafruit IO username]
-#define IO_KEY: [Your Adafruit IO key]
-#define WIFI_SSID: “dsc”
-#define WIFI_PASS: “dsc4life”</code></pre>
+<pre><code>#define IO_USERNAME: "Your Adafruit IO username"
+#define IO_KEY: "Your Adafruit IO key"
+#define WIFI_SSID: "dsc"
+#define WIFI_PASS: "dsc4life"</code></pre>
 
 **Please Note:** You will have to do this for every new project sketch you open in Arduino
 
 **Extra:** Click **Upload** (top-left corner of the window). When it’s done uploading, wait a few seconds and then click on the **Serial Monitor** (magnifying glass in top-right corner). In the bottom right corner, make sure you select **115200**. You should see the Feather printing data to the screen!
 
 **Extra Extra:** If you want to see the same information through the Adafruit IO interface, go to [https://learn.adafruit.com/welcome-to-adafruit-io/overview](https://learn.adafruit.com/welcome-to-adafruit-io/overview){:target="_blank"} and follow the instructions there.
+
+**Extra Extra Extra:** When you compling or uploading the codes, If Arudoino IDE shows the errors of "No connection established. Last error: Error connect ECONNERFUSED 127.0.0.1:49818 Compliation error".  1. Run netstat -ano | findstr "49818" to find the process ID(PID) that using that port. Then use taskkill /PIO <PID> /F to stop it on windows. Or on MACOS/Linux: Run lsof -i: 49818 to find the process and then kill -9 <PID> to terminate it. 2 Check your firewall settings. Allow the Arduino IDE connection/traffice through firewall. 3. Restart the Arduino IDE.
 
 <br>[NEXT STEP: Reading Light from a Sensor](act-2.html){: .btn .btn-blue }

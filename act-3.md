@@ -28,7 +28,7 @@ In this tutorial, you will learn how to make a simple weather station that detec
 
 1.  Log into [https://io.adafruit.com](https://io.adafruit.com){:target="_blank"} (if you haven’t created an account yet, you can do that now). Along the top menubar, click **IO** and then click **Feeds**. Click **+ New Feed**. Let’s create two feeds: one for temperature (name it “temperature”) and one for humidity (name it “humidity”)
 
-    <img src="images/act-2-4-menu_update.png" alt="menu" style="width:720px;">
+    <img src="images/act-2/4-menu_update.png" alt="menu" style="width:720px;">
 
 2.  Go to Dashboards on the top menubar, then click **+ New Dashboard**. Name the new dashboard anything you want (for example, "environment sensor"). Once created, the new dashboard will appear on the page. Click on the name of your new dashboard
 

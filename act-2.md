@@ -59,7 +59,7 @@ In this tutorial, you will learn how to detect light with a sensor and relay tha
 
     <img src="images/act-2/5-breadboard.png" alt="" style="width:720px;">
 
-    <img src="images/act-2/5-speed.png" alt="speed" style="float:right;width:360px;margin-left:10px;">
+    <img src="images/act-2-5-light.png" alt="speed" style="float:right;width:360px;margin-left:10px;">
 
 6.  Open the Arduino software. Make sure you have the correct libraries installed (if not, ask an instructor). Go to **File -> Examples -> Adafruit IO Arduino -> adafruitio_08_analogin**. A new sketch should pop up. A sketch is a program or batch of instructions for our Feather HUZZAH.
 

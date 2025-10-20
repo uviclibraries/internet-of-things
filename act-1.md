@@ -11,7 +11,7 @@ Before we start working on the IOT projects, let’s install all the necessary s
 
 **Configuring Arduino IDE**
 
-1.  <mark style="background-color:coral;"><b>This first step is the most important one, and omitting it, or not completing every step, is often the source of errors in this workshop.</b></mark> A computer needs the appropriate driver to be able to talk to the Feather Huzzah through the USB cable. Your computer does not have this driver by default, so you must manually install the necessary driver:
+1.  <mark style="background-color:coral;"><b>This first activity is essential to get the IoT board communicating with your computer, and omitting it, or not completing every step in the order outlined below, is often the source of errors in this workshop.</b></mark> A computer needs the appropriate driver to be able to talk to the Feather Huzzah through the USB cable. Your computer does not have this driver by default, so you must manually install the necessary driver:
     -   Go to the Silicon Labs website and [download the appropriate driver for your computer's operating system](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads){:target="_blank"}.
     -   Clicking on the name of the driver should download a .zip file. Find the .zip file in your "**Downloads**" folder. Right-click the .zip file and select "**Extract All...**"
     -   Now that you've downloaded the driver package, you have to install the driver. Go into the unzipped folder and find the installer .inf (or "**Setup Information**") file

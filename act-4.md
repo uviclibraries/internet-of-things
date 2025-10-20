@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 4 - Send a Message
+title: 4 - Send a Message - BROKEN
 nav_order: 5
 parent: Workshop Activities
 ---

@@ -18,7 +18,7 @@ Before we start working on the IOT projects, let’s install all the necessary s
     -   Right-click on this file, select "**Install**", and follow any installer instructions
     -   If you encounter any problems with these steps, please bring them to the instructor's attention :)
 2.  If you haven't already download the [Arduino IDE](http://bit.ly/2LIKN2A){:target="_blank"} & install it. *Note:** The software is in a zip file, so it may take a few steps before you are asked for your password during the install process. If you haven’t entered your password, you’re not done yet
-    -   **REBOOT your computer now!** This is Very Important to do!
+    -   <mark style="background-color:coral;">**REBOOT your computer now!**</mark> This is Very Important to do!
 3.  In the Arduino IDE you just installed go to **Sketch -> Include Library -> Manage Libraries**
     -   Now search for "Adafruit IO Arduino" and click **Install**.  If you are prompted to add dependencies say yes.
     -   Search for "Adafruit MQTT" and click **Install**
@@ -53,7 +53,7 @@ Before we start working on the IOT projects, let’s install all the necessary s
 
 <pre><code>#define IO_USERNAME: "Your Adafruit IO username"
 #define IO_KEY: "Your Adafruit IO key"
-#define WIFI_SSID: "dsc"
+#define WIFI_SSID: "iPhone-RichMcCue"
 #define WIFI_PASS: "dsc4life"</code></pre>
 
 **Please Note:** You will have to do this for every new project sketch you open in Arduino

@@ -67,7 +67,7 @@ In this tutorial, you will learn how to detect light with a sensor and relay tha
 
     <pre><code>#define IO_USERNAME: [Your Adafruit IO username]
     #define IO_KEY: [Your Adafruit IO key]
-    #define WIFI_SSID: “dsc”
+    #define WIFI_SSID: “iPhone-RichMcCue”
     #define WIFI_PASS: “dsc4life”</code></pre>
 
 9.  Connect Feather to your laptop and **make sure the right Board and Port settings are selected**. Click the **upload** arrow (the right arrow icon in the top left corner of the window).

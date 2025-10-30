@@ -79,8 +79,13 @@ In this tutorial, you will learn how to make a simple weather station that detec
      Delete fahrenheit in `save(fahrenheit);` being sure to leave the brackets intact. Replace it with `celsius`, using all lowercase letters
 
 10.  Next, we need to be able to connect to WiFi and our Adafruit account. Click on the config.h tab. In the Arduino program on your laptop, fill in the 4 lines of info as we did at the start of the workshop
-11.  Connect Feather to your laptop and make sure the right Board and Port settings are selected. Click upload (the right arrow icon in the top left corner of the window). Our gauges should now display the temperature and humidity!
-12.  Let’s add a couple of line charts for both temperature and humidity:
+11.  Connect Feather to your laptop and make sure the right Board and Port settings are selected. Click upload (the right arrow icon in the top left corner of the window).
+After uploading the code to the Arduino board, on the IDE menu, click the Tools-Serial Monitor to show the serial port output information to debug.
+
+ <img src="images/act-3/3-serial-print.png" alt="speed" style="float:right;width:720px;margin-left:10px;">
+
+ If the IDE could print out the serial information as above, our gauges should now display the temperature and humidity!
+14.  Let’s add a couple of line charts for both temperature and humidity:
      -   Click on the gear dropdown again, click **+ Create New Block**, and select the **Line Chart** option. Select **temperature**, and play around with the options to see what works best. For example, I liked to set the Y-axis Minimum to 0 and the Y-axis Maximum to 33(for celsius) or 100 (for fahrenheit).
      -   Click on the gear dropdown again, click **+ Create New Block**, and select the **Line Chart** option. Select **humidity**, and play around with the options to see what works best. For example, I liked to set the Y-axis Minimum to 0 and the Y-axis Maximum to 100
 

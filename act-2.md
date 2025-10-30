@@ -69,7 +69,11 @@ In this tutorial, you will learn how to detect light with a sensor and relay tha
     #define WIFI_SSID: "iPhone-RichMcCue"
     #define WIFI_PASS: "dsc4life"</code></pre>
 
-9.  Connect Feather to your laptop and **make sure the right Board and Port settings are selected**. Click the **upload** arrow (the right arrow icon in the top left corner of the window).
+8.  Connect Feather to your laptop and **make sure the right Board and Port settings are selected**. Click the **upload** arrow (the right arrow icon in the top left corner of the window).
+After uploading the code to the Arduino board, on the IDE menu, click the Tools-Serial Monitor to show the serial port output information for debug.
+
+ <img src="images/act-2/2-serial-print.png" alt="speed" style="float:right;width:720px;margin-left:10px;">
+
 
 10.  Cover the light sensor with a finger and watch the value of the gauge decrease. Then slowly lift your finger further and further away and watch it change!
 

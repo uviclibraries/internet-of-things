@@ -73,7 +73,7 @@ In this tutorial, you will learn how to detect light with a sensor and relay tha
 
 10.  Cover the light sensor with a finger and watch the value of the gauge decrease. Then slowly lift your finger further and further away and watch it change!
 
-  <img src="images/act-2/5-light.png" alt="speed" style="float:right;width:360px;margin-left:10px;">
+  <img src="images/act-2/5-light.png" alt="speed" style="float:right;width:720px;margin-left:10px;">
 
 
 <br>[NEXT STEP: Make Your Own Weather Station](act-3.html){: .btn .btn-blue }

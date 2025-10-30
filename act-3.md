@@ -86,7 +86,7 @@ In this tutorial, you will learn how to make a simple weather station that detec
 
 <img src="images/act-3/19-speed-update.png" alt="line charts" style="width:720px;">
 
-13.  Double click the temperature block, it will show more details on the temperature sensor block
+ Double click the temperature block, it will show more details on the temperature sensor block
     <img src="images/act-3/19-2-speed-update.png" alt="line charts" style="width:720px;">
     
 

@@ -53,7 +53,7 @@ Before we start working on the IOT projects, let’s install all the necessary s
 
 <pre><code>#define IO_USERNAME: "Your Adafruit IO username"
 #define IO_KEY: "Your Adafruit IO key"
-#define WIFI_SSID: "iPhone-RichMcCue"
+#define WIFI_SSID: "iot-workshop"
 #define WIFI_PASS: "dsc4life"</code></pre>
 
 **Please Note:** You will have to do this for every new project sketch you open in Arduino

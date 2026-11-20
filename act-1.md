@@ -62,6 +62,7 @@ How to Verify and Use It on Linux:
             Even though the driver is pre-installed, Linux blocks normal users from accessing /dev/ttyUSB0 by default. Add your user to the dialout group (or uucp on Arch-based distros):
             
                 sudo usermod -aG dialout $USER
+
 Log out and log back in (or reboot) for the group change to take effect.    
        4. Check for Braille Display Conflicts (Ubuntu/Debian)
 
@@ -95,7 +96,9 @@ Then unplug and replug the board.
             lsusb
          
  Look for a line matching your board:
+ 
  • Silicon Labs CP210x: ID 10c4:ea60 Silicon Labs CP210x UART Bridge
+ 
  • CH340/CH341 (common clone chip): ID 1a86:7523 QinHeng Electronics CH340 serial converter (Note: brltty also hijacks CH340 chips!)
             
 4. Manually Load the Kernel Module (Rare)

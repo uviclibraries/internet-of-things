@@ -30,7 +30,7 @@ Before we start working on the IOT projects, let’s install all the necessary s
        2. Open Terminal and run bash below:
         /Applications/CP210xVCPDriver.app/Contents/MacOS/CP210xVCPDriver install
     
-     3. Uninstall, Reboot, and Check if the Driver Already Loaded
+       3. Uninstall, Reboot, and Check if the Driver Already Loaded
       
       • Sometimes the installer hangs or reports a failure even after copying the driver files. Check in Terminal if the          port or extension already exists:
 
@@ -40,12 +40,11 @@ Before we start working on the IOT projects, let’s install all the necessary s
        • If it is stuck or broken, run the uninstaller first, restart your MacBook, and try again. (On older macOS                 versions, check for a Legacy Mac VCP Driver folder inside the downloaded package if the current version hangs.)
     
  -  If you are using Linux, https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads
-        You do not need to download or install anything from the Silicon Labs website on Linux. The cp210x driver has been         built directly into the standard Linux kernel for years (since kernel 2.6.12).
+   You do not need to download or install anything from the Silicon Labs website on Linux. The cp210x driver has been         built directly into the standard Linux kernel for years (since kernel 2.6.12).
 
-        Silicon Labs only provides a downloadable Linux driver package on that page for users running very old, custom-            built kernels (like 3.x or 4.x) where the module was stripped out.
+   Silicon Labs only provides a downloadable Linux driver package on that page for users running very old, custom-            built kernels (like 3.x or 4.x) where the module was stripped out.
 
-        How to Verify and Use It on Linux
-        
+How to Verify and Use It on Linux:
         1. Plug in your device (such as an ESP8266/ESP32 board) via USB.
         2. Check if Linux detected it by running this in your terminal:
            ls /dev/ttyUSB*
@@ -53,62 +52,67 @@ Before we start working on the IOT projects, let’s install all the necessary s
            lsmod | grep cp210x
         3. Fix Permission Denied Errors (Crucial Step)
             Even though the driver is pre-installed, Linux blocks normal users from accessing /dev/ttyUSB0 by default. Add your user to the dialout group (or uucp on Arch-based distros):
-            sudo usermod -aG dialout $USER
             
-            Log out and log back in (or reboot) for the group change to take effect.
-            
-            4. Check for Braille Display Conflicts (Ubuntu/Debian)
-            On Ubuntu, the brltty service sometimes hijacks CP210x USB-to-serial adapters and immediately disconnects     /dev/ttyUSB0. If dmesg | grep ttyUSB shows the device connecting and immediately disconnecting, remove brltty:
+                sudo usermod -aG dialout $USER
+Log out and log back in (or reboot) for the group change to take effect.    
+       4. Check for Braille Display Conflicts (Ubuntu/Debian)
+On Ubuntu, the brltty service sometimes hijacks CP210x USB-to-serial adapters and immediately disconnects     /dev/ttyUSB0. If dmesg | grep ttyUSB shows the device connecting and immediately disconnecting, remove brltty:
             sudo apt remove brltty
            
-           If /dev/ttyUSB0 isn't appearing, Linux is either not seeing the USB device at all (usually a charge-only cable),
-               assigning it a different name (/dev/ttyACM0), or immediately disconnecting it due to a driver conflict.
-            Run these diagnostic steps in order to pinpoint what is happening:
+If /dev/ttyUSB0 isn't appearing, Linux is either not seeing the USB device at all (usually a charge-only cable),
+     assigning it a different name (/dev/ttyACM0), or immediately disconnecting it due to a driver conflict.
+     Run these diagnostic steps in order to pinpoint what is happening:
             
-            1. Check the USB Cable First
+1. Check the USB Cable First
+    This is the #1 culprit with microcontroller boards. Many micro-USB and USB-C cables only have power wires and no data wires.
+     • Test: Swap to a cable you know can transfer files (e.g., from a phone to a PC).
             
-            This is the #1 culprit with microcontroller boards. Many micro-USB and USB-C cables only have power wires and no data wires.
-            • Test: Swap to a cable you know can transfer files (e.g., from a phone to a PC).
+2. Check if Linux Sees the Hardware (lsusb & dmesg)
             
-            2. Check if Linux Sees the Hardware (lsusb & dmesg)
-            
-            Unplug the board, plug it back in, and immediately run:
+Unplug the board, plug it back in, and immediately run:
            
             sudo dmesg | tail -n 15
             
-            • Nothing new appears at all: Confirming step 1—the cable is power-only, or the USB port/board is damaged.
-            • You see brltty claiming the device and cp210x ttyUSB0: cp210x converter now disconnected: Your OS thinks the board is a Braille display (very common on Ubuntu 22.04/24.04). Fix it with bash:
+• Nothing new appears at all: Confirming step 1—the cable is power-only, or the USB port/board is damaged.
+• You see brltty claiming the device and cp210x ttyUSB0: cp210x converter now disconnected: Your OS thinks the board is a Braille display (very common on Ubuntu 22.04/24.04). Fix it with:
             sudo apt remove brltty
             
-            Then unplug and replug the board.
-            • You see cdc_acm or ttyACM0 instead of ttyUSB0: Your board uses a different USB-to-serial chip (like native USB or an ATmega16U2) rather than a CP210x. Check with ls /dev/ttyACM*.
+Then unplug and replug the board.
+ • You see cdc_acm or ttyACM0 instead of ttyUSB0: Your board uses a different USB-to-serial chip (like native USB or an ATmega16U2) rather than a CP210x. Check with 
+    ls /dev/ttyACM*.
             
-            3. Check lsusb for the Chip Type
-            
-            Run:
+ 3. Check lsusb for the Chip Type
+
             lsusb
          
-            Look for a line matching your board:
-            • Silicon Labs CP210x: ID 10c4:ea60 Silicon Labs CP210x UART Bridge
-            • CH340/CH341 (common clone chip): ID 1a86:7523 QinHeng Electronics CH340 serial converter (Note: brltty also hijacks CH340 chips!)
+ Look for a line matching your board:
+ • Silicon Labs CP210x: ID 10c4:ea60 Silicon Labs CP210x UART Bridge
+ • CH340/CH341 (common clone chip): ID 1a86:7523 QinHeng Electronics CH340 serial converter (Note: brltty also hijacks CH340 chips!)
             
-            4. Manually Load the Kernel Module (Rare)
+4. Manually Load the Kernel Module (Rare)
             
-            If lsusb shows 10c4:ea60 (Silicon Labs), dmesg shows no brltty disconnect, and /dev/ttyUSB0 is still missing, force the driver to load:
+If lsusb shows 10c4:ea60 (Silicon Labs), dmesg shows no brltty disconnect, and /dev/ttyUSB0 is still missing, force the driver to load:
             
             sudo modprobe cp210x
 
 
-    -   If you encounter any other problems with these steps, please bring them to the instructor's attention :)
+ -   If you encounter any other problems with these steps, please bring them to the instructor's attention :)
     
 
 
 3.  If you haven't already download the [Arduino IDE](http://bit.ly/2LIKN2A){:target="_blank"} & install it. *Note:** The software is in a zip file, so it may take a few steps before you are asked for your password during the install process. If you haven’t entered your password, you’re not done yet
     -   <mark style="background-color:coral;">**REBOOT your computer now!**</mark> This is Very Important to do!
+
 4.  In the Arduino IDE you just installed go to **Sketch -> Include Library -> Manage Libraries**
     -   Now search for "Adafruit IO Arduino" and click **Install**.  If you are prompted to add dependencies say yes.
     -   Search for "Adafruit MQTT" and click **Install**
     -   Search for "ArduinoHttpClient" and click **Install**
+
+Notes: Arduino IDE (v1.8.10+ and IDE 2.x) / Arduino Cloud Editor: When you search for and install Adafruit IO Arduino via the built-in Library Manager, a pop-up will ask if you want to "Install all" dependencies. Clicking "Install all" automatically downloads and installs Adafruit MQTT Library, ArduinoHttpClient, and other helper libraries for you.You can verify that the dependencies are installed by either checking your library list or running a quick compile test. Check the Library Manager (Fastest method):
+• Arduino IDE 1.8.x: Go to Sketch > Include Library > Manage Libraries..., then search for Adafruit MQTT and ArduinoHttpClient individually. Both should show an "INSTALLED" tag next to their names.
+• Arduino IDE 2.x: Click the Library Manager icon (bookshelf) on the left sidebar and search for both names to confirm they say "INSTALLED".
+
+
 5.  Open the following URL in your web browser: [https://arduino.esp8266.com/stable/package_esp8266com_index.json](https://arduino.esp8266.com/stable/package_esp8266com_index.json){:target="_blank"}
     -   Copy the full URL of the web page as you’ll need it in the next step (the full URL is: http://arduino.esp8266.com/stable/package_esp8266com_index.json)
     -   In your Arduino IDE, go to the **File** menu **-> Preferences** (on a Mac **Arduino** menu **-> Preferences**). A window will pop up. Under the **Settings** tab, click the box next to **Additional Board Manager URLs** and copy/paste the above link in the field beside it

@@ -11,7 +11,16 @@ Before we start working on the IOT projects, let’s install all the necessary s
 
 **Configuring Arduino IDE**
 
-1.  <mark style="background-color:coral;"><b>This first activity is essential to get the IoT board communicating with your computer, and omitting it, or not completing every step in the order outlined below, is often the source of errors in this workshop.</b></mark> A computer needs the appropriate driver to be able to talk to the Feather Huzzah through the USB cable. Your computer does not have this driver by default, so you must manually install the necessary driver:
+1.  <mark style="background-color:coral;"><b>
+Essentially, the first activity is to get the IoT board communicating with your computer. Newer version of Windows(10/11), Linux and MacOS have built-in driver for CP210x serial to USB driver. Thy handle the CP210x chip automatically without requiring you to manually download an installer from Silicon Labs. Confirm by checking Arduino IDE under Tools -> Port, you are already good to go and can upload sketches directly without touching any driver installers.
+
+Plug-and-play: When you plug in the Adafruit Feather HUZZAH with a data-capable USB cable, in your Arduino IDE under Tools -> Port, if you see:
+-  For Windows, Port name: Appears as COM3 (or COM4, COM5, etc.)
+-  For Linux: /dev/ttyUSB0
+-  For MacOS: /dev/cu.usbserial-XXXX
+
+
+If you do not see the ports in the IDE, you need to manually install the serial to USB driver. Omitting, or not completing every step in the order outlined below, is often the source of errors in this workshop.</b></mark> A computer needs the appropriate driver to be able to talk to the Feather Huzzah through the USB cable. For older version of OS which does not have this serial to USB driver by default, you must manually install the necessary driver:
     -   Go to the Silicon Labs website and [download the appropriate driver for your computer's operating system](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads){:target="_blank"}.
     -   Clicking on the name of the driver should download a .zip file. Find the .zip file in your "**Downloads**" folder. Right-click the .zip file and select "**Extract All...**"
     -   Now that you've downloaded the driver package, you have to install the driver. Go into the unzipped folder and find the installer .inf (or "**Setup Information**") file
@@ -109,7 +118,9 @@ If lsusb shows 10c4:ea60 (Silicon Labs), dmesg shows no brltty disconnect, and /
     -   Search for "ArduinoHttpClient" and click **Install**
 
 Notes: Arduino IDE (v1.8.10+ and IDE 2.x) / Arduino Cloud Editor: When you search for and install Adafruit IO Arduino via the built-in Library Manager, a pop-up will ask if you want to "Install all" dependencies. Clicking "Install all" automatically downloads and installs Adafruit MQTT Library, ArduinoHttpClient, and other helper libraries for you.You can verify that the dependencies are installed by either checking your library list or running a quick compile test. Check the Library Manager (Fastest method):
+
 • Arduino IDE 1.8.x: Go to Sketch > Include Library > Manage Libraries..., then search for Adafruit MQTT and ArduinoHttpClient individually. Both should show an "INSTALLED" tag next to their names.
+
 • Arduino IDE 2.x: Click the Library Manager icon (bookshelf) on the left sidebar and search for both names to confirm they say "INSTALLED".
 
 
@@ -128,8 +139,14 @@ Notes: Arduino IDE (v1.8.10+ and IDE 2.x) / Arduino Cloud Editor: When you searc
     <img src="images/act-1/7-menu.png" alt="alt board manager" style="float:right;width:480px;margin-left:10px;">
 
 8.  Connect the Feather Huzzah to your laptop. Go to **Tools -> Port ->** (select the right COM port)
-    -   On a Mac, the port is labelled "SLAB_USBtoUART"
-    -   (Note: you may have to reselect port when you unplug and replug the cable into your computer)
+ -   On a Mac, the port is labelled "SLAB_USBtoUART" or "/dev/cu.SLAB_USBtoUART" or "/dev/cu.usbserial-XXXX" (where XXXX is a string of numbers/letters) Which exact label you see depends on how your Mac handles the board's Silicon Labs CP2104 USB-to-Serial chip:
+
+• /dev/cu.SLAB_USBtoUART — Appears if you have installed the external Silicon Labs CP210x VCP driver.
+
+• /dev/cu.usbserial-XXXX — Appears on modern macOS versions (Monterey and newer) using Apple's built-in driver without needing any third-party driver installation.
+    
+-   (Note: you may have to reselect port when you unplug and replug the cable into your computer)
+
 9.  In your web browser, go to [https://io.adafruit.com/](https://io.adafruit.com/){:target="_blank"} and create an account
     -   After you’ve logged in, look at the top menu and click on **IO**
     -   On the new screen, look at the top menu and click on **My Key** (yellow key symbol)

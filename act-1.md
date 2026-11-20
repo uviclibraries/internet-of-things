@@ -27,26 +27,25 @@ If you do not see the ports in the IDE, you need to manually install the serial 
     -   Right-click on this file, select "**Install**", and follow any installer instructions
     -   If you are using Macbook,stuck progress bar during the Silicon Labs CP210x VCP driver install on a MacBook usually happens because macOS is waiting for you to approve a blocked system/kernel extension or is hanging on the GUI installer.
           
-    1. Approve Blocked System Software in macOS
-
-        1. Open System Settings (or System Preferences on older macOS versions).
-        2. Go to Privacy & Security (or Security & Privacy).
-        3. Look for a notice stating system software from Silicon Laboratories Inc or CP210xVCPDriver was blocked.
-        4. Click Allow, enter your Mac password, and finish the prompt.
-    2. Run the Installer from Terminal
-       If CP210xVCPDriver.app is already in /Applications, running it via Terminal often bypasses a stuck GUI progress bar:
-       1. Quit the stuck installer.
-       2. Open Terminal and run bash below:
-        /Applications/CP210xVCPDriver.app/Contents/MacOS/CP210xVCPDriver install
+1. Approve Blocked System Software in macOS
+   1. Open System Settings (or System Preferences on older macOS versions).
+   2. Go to Privacy & Security (or Security & Privacy).
+   3. Look for a notice stating system software from Silicon Laboratories Inc or CP210xVCPDriver was blocked.
+   4. Click Allow, enter your Mac password, and finish the prompt.
+2. Run the Installer from Terminal
+ If CP210xVCPDriver.app is already in /Applications, running it via Terminal often bypasses a stuck GUI progress bar:
+ 1. Quit the stuck installer.
+ 2. Open Terminal and run bash below:
+/Applications/CP210xVCPDriver.app/Contents/MacOS/CP210xVCPDriver install
     
-       3. Uninstall, Reboot, and Check if the Driver Already Loaded
+ 3. Uninstall, Reboot, and Check if the Driver Already Loaded
       
-      • Sometimes the installer hangs or reports a failure even after copying the driver files. Check in Terminal if the          port or extension already exists:
+• Sometimes the installer hangs or reports a failure even after copying the driver files. Check in Terminal if the          port or extension already exists:
 
             ls /dev/cu.*
             kextstat | grep silabs
     
-       • If it is stuck or broken, run the uninstaller first, restart your MacBook, and try again. (On older macOS                 versions, check for a Legacy Mac VCP Driver folder inside the downloaded package if the current version hangs.)
+ • If it is stuck or broken, run the uninstaller first, restart your MacBook, and try again. (On older macOS                 versions, check for a Legacy Mac VCP Driver folder inside the downloaded package if the current version hangs.)
     
  -  If you are using Linux, https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads
    You do not need to download or install anything from the Silicon Labs website on Linux. The cp210x driver has been         built directly into the standard Linux kernel for years (since kernel 2.6.12).
@@ -65,6 +64,7 @@ How to Verify and Use It on Linux:
                 sudo usermod -aG dialout $USER
 Log out and log back in (or reboot) for the group change to take effect.    
        4. Check for Braille Display Conflicts (Ubuntu/Debian)
+
 On Ubuntu, the brltty service sometimes hijacks CP210x USB-to-serial adapters and immediately disconnects     /dev/ttyUSB0. If dmesg | grep ttyUSB shows the device connecting and immediately disconnecting, remove brltty:
             sudo apt remove brltty
            
@@ -105,7 +105,7 @@ If lsusb shows 10c4:ea60 (Silicon Labs), dmesg shows no brltty disconnect, and /
             sudo modprobe cp210x
 
 
- -   If you encounter any other problems with these steps, please bring them to the instructor's attention :)
+-   If you encounter any other problems with these steps, please bring them to the instructor's attention :)
     
 
 

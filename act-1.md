@@ -47,24 +47,23 @@ If you do not see the ports in the IDE, you need to manually install the serial 
     
  • If it is stuck or broken, run the uninstaller first, restart your MacBook, and try again. (On older macOS                 versions, check for a Legacy Mac VCP Driver folder inside the downloaded package if the current version hangs.)
     
- -  If you are using Linux, https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads
-   You do not need to download or install anything from the Silicon Labs website on Linux. The cp210x driver has been         built directly into the standard Linux kernel for years (since kernel 2.6.12).
+-  If you are using newer version of Linux, do not need to download or install anything from the Silicon Labs website on Linux. The cp210x driver has been built directly into the standard Linux kernel for years (since kernel 2.6.12).
 
    Silicon Labs only provides a downloadable Linux driver package on that page for users running very old, custom-            built kernels (like 3.x or 4.x) where the module was stripped out.
 
 How to Verify and Use It on Linux:
-        1. Plug in your device (such as an ESP8266/ESP32 board) via USB.
-        2. Check if Linux detected it by running this in your terminal:
+1. Plug in your device (such as an ESP8266/ESP32 board) via USB.
+2. Check if Linux detected it by running this in your terminal:
            ls /dev/ttyUSB*
-       You should see /dev/ttyUSB0 (or similar) appear automatically. You can also verify the driver loaded with:
+You should see /dev/ttyUSB0 (or similar) appear automatically. You can also verify the driver loaded with:
            lsmod | grep cp210x
-        3. Fix Permission Denied Errors (Crucial Step)
+3. Fix Permission Denied Errors (Crucial Step)
             Even though the driver is pre-installed, Linux blocks normal users from accessing /dev/ttyUSB0 by default. Add your user to the dialout group (or uucp on Arch-based distros):
             
                 sudo usermod -aG dialout $USER
 
 Log out and log back in (or reboot) for the group change to take effect.    
-       4. Check for Braille Display Conflicts (Ubuntu/Debian)
+4. Check for Braille Display Conflicts (Ubuntu/Debian)
 
 On Ubuntu, the brltty service sometimes hijacks CP210x USB-to-serial adapters and immediately disconnects     /dev/ttyUSB0. If dmesg | grep ttyUSB shows the device connecting and immediately disconnecting, remove brltty:
             sudo apt remove brltty

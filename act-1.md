@@ -51,18 +51,25 @@ If you do not see the ports in the IDE, you need to manually install the serial 
 
    Silicon Labs only provides a downloadable Linux driver package on that page for users running very old, custom-            built kernels (like 3.x or 4.x) where the module was stripped out.
 
-How to Verify and Use It on Linux:
+How to verify and use it on Linux:
+
 1. Plug in your device (such as an ESP8266/ESP32 board) via USB.
+
 2. Check if Linux detected it by running this in your terminal:
            ls /dev/ttyUSB*
+
 You should see /dev/ttyUSB0 (or similar) appear automatically. You can also verify the driver loaded with:
            lsmod | grep cp210x
+
 3. Fix Permission Denied Errors (Crucial Step)
-            Even though the driver is pre-installed, Linux blocks normal users from accessing /dev/ttyUSB0 by default. Add your user to the dialout group (or uucp on Arch-based distros):
+
+Even though the driver is pre-installed, Linux blocks normal users from accessing /dev/ttyUSB0 by default. Add your user to the dialout group (or uucp on Arch-based distros):
             
                 sudo usermod -aG dialout $USER
 
+
 Log out and log back in (or reboot) for the group change to take effect.    
+
 4. Check for Braille Display Conflicts (Ubuntu/Debian)
 
 On Ubuntu, the brltty service sometimes hijacks CP210x USB-to-serial adapters and immediately disconnects     /dev/ttyUSB0. If dmesg | grep ttyUSB shows the device connecting and immediately disconnecting, remove brltty:

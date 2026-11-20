@@ -74,11 +74,9 @@ Log out and log back in (or reboot) for the group change to take effect.
 
 On Ubuntu, the brltty service sometimes hijacks CP210x USB-to-serial adapters and immediately disconnects     /dev/ttyUSB0. If dmesg | grep ttyUSB shows the device connecting and immediately disconnecting, remove brltty:
             
-            sudo apt remove brltty
+                sudo apt remove brltty
            
-If /dev/ttyUSB0 isn't appearing, Linux is either not seeing the USB device at all (usually a charge-only cable),
-     assigning it a different name (/dev/ttyACM0), or immediately disconnecting it due to a driver conflict.
-     Run these diagnostic steps in order to pinpoint what is happening:
+If /dev/ttyUSB0 isn't appearing, Linux is either not seeing the USB device at all (usually a charge-only cable), assigning it a different name (/dev/ttyACM0), or immediately disconnecting it due to a driver conflict. Run these diagnostic steps in order to pinpoint what is happening:
             
 1. Check the USB Cable First
 This is the #1 culprit with microcontroller boards. Many micro-USB and USB-C cables only have power wires and no data wires.
@@ -93,11 +91,13 @@ Unplug the board, plug it back in, and immediately run:
             
 • Nothing new appears at all: Confirming step 1—the cable is power-only, or the USB port/board is damaged.
 • You see brltty claiming the device and cp210x ttyUSB0: cp210x converter now disconnected: Your OS thinks the board is a Braille display (very common on Ubuntu 22.04/24.04). Fix it with:
+            
             sudo apt remove brltty
             
 Then unplug and replug the board.
  • You see cdc_acm or ttyACM0 instead of ttyUSB0: Your board uses a different USB-to-serial chip (like native USB or an ATmega16U2) rather than a CP210x. Check with 
-    ls /dev/ttyACM*.
+   
+            ls /dev/ttyACM*.
             
  3. Check lsusb for the Chip Type
 

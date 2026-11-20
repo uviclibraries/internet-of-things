@@ -20,7 +20,7 @@ Plug-and-play: When you plug in the Adafruit Feather HUZZAH with a data-capable 
 -  For MacOS: /dev/cu.usbserial-XXXX
 
 
-If you do not see the ports in the IDE, you need to manually install the serial to USB driver. Omitting, or not completing every step in the order outlined below, is often the source of errors in this workshop.</b></mark> A computer needs the appropriate driver to be able to talk to the Feather Huzzah through the USB cable. For older version of OS which does not have this serial to USB driver by default, you must manually install the necessary driver:
+If you do not see the ports in the IDE, you need to manually install the serial to USB driver. Omitting, or not completing every step in the order outlined below, is often the source of errors in this workshop. A computer needs the appropriate driver to be able to talk to the Feather Huzzah through the USB cable. For older version of OS which does not have this serial to USB driver by default, you must manually install the necessary driver:
     -   Go to the Silicon Labs website and [download the appropriate driver for your computer's operating system](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads){:target="_blank"}.
     -   Clicking on the name of the driver should download a .zip file. Find the .zip file in your "**Downloads**" folder. Right-click the .zip file and select "**Extract All...**"
     -   Now that you've downloaded the driver package, you have to install the driver. Go into the unzipped folder and find the installer .inf (or "**Setup Information**") file
@@ -80,10 +80,11 @@ If /dev/ttyUSB0 isn't appearing, Linux is either not seeing the USB device at al
      Run these diagnostic steps in order to pinpoint what is happening:
             
 1. Check the USB Cable First
-    This is the #1 culprit with microcontroller boards. Many micro-USB and USB-C cables only have power wires and no data wires.
-     • Test: Swap to a cable you know can transfer files (e.g., from a phone to a PC).
+This is the #1 culprit with microcontroller boards. Many micro-USB and USB-C cables only have power wires and no data wires.
+
+ • Test: Swap to a cable you know can transfer files (e.g., from a phone to a PC).
             
-2. Check if Linux Sees the Hardware (lsusb & dmesg)
+3. Check if Linux Sees the Hardware (lsusb & dmesg)
             
 Unplug the board, plug it back in, and immediately run:
            

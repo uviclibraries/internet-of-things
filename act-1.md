@@ -71,8 +71,11 @@ Even though the driver is pre-installed, Linux blocks normal users from accessin
 Log out and log back in (or reboot) for the group change to take effect.    
 
 4. Check for Braille Display Conflicts (Ubuntu/Debian)
+On Ubuntu, the brltty service sometimes hijacks CP210x USB-to-serial adapters and immediately disconnects /dev/ttyUSB0. If
 
-On Ubuntu, the brltty service sometimes hijacks CP210x USB-to-serial adapters and immediately disconnects /dev/ttyUSB0. If dmesg | grep ttyUSB shows the device connecting and immediately disconnecting, remove brltty:
+                dmesg | grep ttyUSB
+
+shows the device connecting and immediately disconnecting, remove brltty:
             
                 sudo apt remove brltty
            
